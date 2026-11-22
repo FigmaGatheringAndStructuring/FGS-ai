@@ -1,0 +1,14 @@
+# api
+fastapi
+uvicorn[standard]
+pydantic
+
+# inference
+torch
+transformers>=4.57  # Qwen3-VL 지원
+accelerate
+pillow
+
+# tests
+pytest
+httpx
