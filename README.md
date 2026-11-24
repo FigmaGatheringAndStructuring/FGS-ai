@@ -99,7 +99,7 @@ pip install -U pip
 
 # 2. PyTorch (CUDA 빌드) 먼저 설치
 #    nvidia-smi에 나온 CUDA 버전에 맞는 명령을 https://pytorch.org/get-started/locally/ 에서 확인
-pip install torch --index-url https://download.pytorch.org/whl/cu130
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 python -c "import torch; print(torch.__version__, torch.cuda.is_available(), torch.cuda.get_device_name(0))"
 
 # 3. 나머지 패키지

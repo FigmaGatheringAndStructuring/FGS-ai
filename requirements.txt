@@ -4,7 +4,9 @@ uvicorn[standard]
 pydantic
 
 # inference
-torch
+# torch는 여기 넣지 않는다. CUDA 버전에 맞춰 먼저 따로 설치:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+# (torchvision은 Qwen3-VL 프로세서가 필요로 함)
 transformers>=4.57  # Qwen3-VL 지원
 accelerate
 pillow

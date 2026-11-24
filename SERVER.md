@@ -1,9 +1,36 @@
 # DGX Spark 서버 작업 목록
 
 AI 서버(figma-ai)를 DGX Spark에 올려서 실제 모델로 확인하기까지 할 일.
-root 계정, 코드 위치 `~/fgs-ai` 기준. 끝난 항목은 `[x]`로 체크한다.
+root 계정, 코드 위치 `~/fgs-ai/FGS-ai` 기준. 끝난 항목은 `[x]`로 체크한다.
 
 포트: FGS-backend `8000`, AI 서버 `8001`
+
+---
+
+## 0. 이 서버는 LXC 컨테이너다 (먼저 읽기)
+
+대여 서버는 DGX Spark 한 대를 LXD 컨테이너로 나눈 것이다 (`systemd-detect-virt` → `lxc`).
+현재 할당: vCPU 8, RAM 32GB, 디스크는 호스트와 공유 (별도 한도 없음).
+
+**GPU 드라이버**
+- 커널 드라이버는 호스트 것(580.142)을 쓴다. 컨테이너 안에서 `nvidia-driver-*`, CUDA 툴킷을 apt로 설치하면 안 된다 (버전 불일치로 `nvidia-smi` 실패).
+- 컨테이너에는 호스트와 **같은 버전의 라이브러리만** 넣는다.
+  ```bash
+  sh NVIDIA-Linux-aarch64-580.142.run --no-kernel-module --silent
+  nvidia-smi    # Driver Version: 580.142
+  ```
+- 호스트 드라이버가 바뀌면 `cat /proc/driver/nvidia/version`의 버전으로 다시 맞춘다.
+
+**PyTorch가 `import torch`에서 Segmentation fault**
+- 원인: 컨테이너가 보여 주는 CPU 정보가 서로 다르다 (`/sys/devices/system/cpu/online`은 `0,3,7,10-11,...` 같은 실제 번호, `/proc/cpuinfo`는 0부터 다시 매긴 번호). ARM용 PyTorch의 cpuinfo가 이걸 읽다 죽는다.
+- 해결: sysfs CPU 목록을 `/proc/cpuinfo`와 같게 덮어씌운다. **컨테이너가 재시작되면 다시 해야 한다.**
+  ```bash
+  sh scripts/cpu_fix.sh
+  python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"   # True NVIDIA GB10
+  ```
+- 자동 적용은 8번 systemd 설정 참고.
+
+**모델 크기**: RAM 32GB (GPU도 같은 메모리를 씀) → 4B로 먼저 확인하고 8B 시도. 16GB였을 때는 4B만 가능.
 
 ---
 
@@ -17,8 +44,8 @@ root 계정, 코드 위치 `~/fgs-ai` 기준. 끝난 항목은 `[x]`로 체크�
 - [ ] GPU 확인: `nvidia-smi`에서 GPU 이름과 CUDA Version 확인
 - [ ] 코드 받기
   ```bash
-  git clone https://github.com/juyoungk09/fgs-ai.git ~/fgs-ai
-  cd ~/fgs-ai
+  git clone https://github.com/juyoungk09/fgs-ai.git ~/fgs-ai/FGS-ai
+  cd ~/fgs-ai/FGS-ai
   ```
 - [ ] 가상환경
   ```bash
@@ -29,7 +56,7 @@ root 계정, 코드 위치 `~/fgs-ai` 기준. 끝난 항목은 `[x]`로 체크�
   ```
 - [ ] PyTorch (CUDA 빌드). `cu130`은 예시, `nvidia-smi`의 CUDA 버전에 맞춘다
   ```bash
-  pip install torch --index-url https://download.pytorch.org/whl/cu130
+  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
   python -c "import torch; print(torch.__version__, torch.cuda.is_available(), torch.cuda.get_device_name(0))"
   ```
   → `True`와 GPU 이름이 나와야 함. `False`면 NGC PyTorch 컨테이너 사용 (README 참고)
@@ -51,17 +78,18 @@ root 계정, 코드 위치 `~/fgs-ai` 기준. 끝난 항목은 `[x]`로 체크�
 
   | 변수 | 값 |
   |---|---|
-  | `QWEN_MODEL_ID` | 처음엔 `Qwen/Qwen3-VL-8B-Instruct` |
+  | `QWEN_MODEL_ID` | 처음엔 `Qwen/Qwen3-VL-4B-Instruct` |
+  | `OMP_NUM_THREADS` | `nproc` 값 (지금 8) |
   | `HF_HOME` | 용량 넉넉한 디스크 |
   | `PRELOAD_MODEL` | `1` |
   | `AI_API_KEY` | 백엔드가 같은 서버면 비워도 됨, 다른 컴퓨터면 반드시 설정 |
 
 ## 3. 모델 받기
 
-- [ ] 8B 다운로드 (약 17GB)
+- [ ] 4B 다운로드 (약 9GB), 비교할 때 8B (약 17GB)
   ```bash
   set -a; source .env; set +a
-  hf download Qwen/Qwen3-VL-8B-Instruct
+  hf download Qwen/Qwen3-VL-4B-Instruct
   ```
   `hf: command not found`면 `pip install -U huggingface_hub`
 
@@ -71,7 +99,7 @@ root 계정, 코드 위치 `~/fgs-ai` 기준. 끝난 항목은 `[x]`로 체크�
 - [ ] 서버 실행 (tmux 안에서)
   ```bash
   tmux new -s ai
-  cd ~/fgs-ai && source .venv/bin/activate
+  cd ~/fgs-ai/FGS-ai && source .venv/bin/activate
   uvicorn api.main:app --host 127.0.0.1 --port 8001 --env-file .env
   ```
   `Ctrl+B` → `D`로 빠져나오기, `tmux attach -t ai`로 다시 들어가기
@@ -170,8 +198,10 @@ SSH를 끊거나 서버가 재부팅돼도 자동으로 뜨게 하려면 systemd
   After=network.target
 
   [Service]
-  WorkingDirectory=/root/fgs-ai
-  ExecStart=/root/fgs-ai/.venv/bin/uvicorn api.main:app --host 127.0.0.1 --port 8001 --env-file .env
+  WorkingDirectory=/root/fgs-ai/FGS-ai
+  # LXC CPU 정보 우회 (0번 참고). 서버 시작 전에 매번 적용
+  ExecStartPre=/bin/sh /root/fgs-ai/FGS-ai/scripts/cpu_fix.sh
+  ExecStart=/root/fgs-ai/FGS-ai/.venv/bin/uvicorn api.main:app --host 127.0.0.1 --port 8001 --env-file .env
   Restart=on-failure
 
   [Install]
@@ -187,7 +217,7 @@ SSH를 끊거나 서버가 재부팅돼도 자동으로 뜨게 하려면 systemd
 ## 9. 코드가 바뀌었을 때
 
 ```bash
-cd ~/fgs-ai && git pull
+cd ~/fgs-ai/FGS-ai && git pull
 source .venv/bin/activate
 pip install -r requirements.txt
 diff .env.example .env           # 새로 생긴 변수가 있으면 .env에 추가
@@ -200,6 +230,6 @@ pytest -q
 - [ ] 시연 날짜가 대여 기간 안인지 확인
 - [ ] 5번 결과(`result.md`)와 6번 비교표를 내 PC로 복사 (보고서용)
   ```bash
-  scp root@<서버주소>:~/fgs-ai/result.md .
+  scp root@<서버주소>:~/fgs-ai/FGS-ai/result.md .
   ```
 - [ ] `.env`의 토큰 등 개인 정보 삭제
