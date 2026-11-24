@@ -33,7 +33,22 @@ async def lifespan(_: FastAPI):
     model_loader.unload_model()
 
 
-app = FastAPI(title="MoEMoE뀽 AI Server", version="0.1.0", lifespan=lifespan)
+# ENABLE_DOCS=0 이면 /docs, /redoc, /openapi.json 을 끈다.
+_docs = os.getenv("ENABLE_DOCS", "1") == "1"
+
+app = FastAPI(
+    title="MoEMoE뀽 AI Server",
+    version="0.1.0",
+    description=(
+        "피그마 보드 레이아웃 + 렌더 이미지를 받아 Qwen3-VL로 기획 문서(Markdown)를 생성한다.\n\n"
+        "`AI_API_KEY`가 설정돼 있으면 오른쪽 위 **Authorize**에 키를 넣고 호출한다. "
+        "오류 응답은 `{\"error\": \"...\"}` 형식."
+    ),
+    lifespan=lifespan,
+    docs_url="/docs" if _docs else None,
+    redoc_url="/redoc" if _docs else None,
+    openapi_url="/openapi.json" if _docs else None,
+)
 app.include_router(generate.router)
 
 
