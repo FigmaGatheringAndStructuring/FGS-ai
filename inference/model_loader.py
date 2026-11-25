@@ -16,16 +16,19 @@ import threading
 import time
 from dataclasses import dataclass
 from typing import Any
+from peft import PeftModel
 
 logger = logging.getLogger(__name__)
 
 DEFAULT_MODEL_ID = "Qwen/Qwen3-VL-8B-Instruct"
+DEFAULT_LORA_MODEL_ID = "./training/outputs/fgs-qwen3-vl-lora"
 _DTYPES = {"auto", "bfloat16", "float16", "float32"}
 
 
 @dataclass(frozen=True)
 class ModelConfig:
     model_id: str = DEFAULT_MODEL_ID
+    lora_model_id: str | None = DEFAULT_LORA_MODEL_ID
     dtype: str = "auto"
     device_map: str = "auto"
     attn_implementation: str = "sdpa"
@@ -39,6 +42,10 @@ class ModelConfig:
             raise ValueError(f"QWEN_DTYPE은 {sorted(_DTYPES)} 중 하나여야 합니다: {dtype!r}")
         return cls(
             model_id=os.getenv("QWEN_MODEL_ID", DEFAULT_MODEL_ID),
+            lora_model_id=os.getenv(
+                "QWEN_LORA_MODEL_ID",
+                DEFAULT_LORA_MODEL_ID,
+            ),
             dtype=dtype,
             device_map=os.getenv("QWEN_DEVICE_MAP", "auto"),
             attn_implementation=os.getenv("QWEN_ATTN", "sdpa"),
@@ -111,6 +118,15 @@ def _load(config: ModelConfig) -> LoadedModel:
         device_map=config.device_map,
         attn_implementation=config.attn_implementation,
     )
+
+    if config.lora_model_id:
+        logger.info("LoRA 어댑터 로딩: %s", config.lora_model_id)
+
+        model = PeftModel.from_pretrained(
+            model,
+            config.lora_model_id,
+        )
+
     model.eval()
 
     processor = AutoProcessor.from_pretrained(config.model_id)
