@@ -1,0 +1,192 @@
+{
+  "file_key": "OHSvLZXhldT6VbYu0uyP5t",
+  "file_name": "87",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "캠핑장 야간 소음 운영",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 278.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "작업 영역",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 83.0,
+        "y": 159.0,
+        "width": 676.0,
+        "height": 330.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 105.0,
+        "y": 182.0,
+        "width": 1015.0,
+        "height": 518.0
+      }
+    },
+    {
+      "id": "1:8",
+      "name": "일반 텐트 구역",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 180.0,
+        "y": 280.0,
+        "width": 132.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "모닥불 마당",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 443.0,
+        "y": 215.0,
+        "width": 107.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "주차장",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 443.0,
+        "y": 371.0,
+        "width": 61.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 510.0,
+        "y": 254.0,
+        "width": 610.0,
+        "height": 446.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "기본 · 22시부터 정숙",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 795.0,
+        "y": 154.0,
+        "width": 194.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "행사 예외 · 마당만",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 795.0,
+        "y": 241.0,
+        "width": 169.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "토요일 22:30까지 승인",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 794.0,
+        "y": 310.0,
+        "width": 198.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 834.0,
+        "y": 384.0,
+        "width": 47.45000076293945,
+        "height": 47.45000076293945
+      }
+    },
+    {
+      "id": "1:18",
+      "name": "주차장까지 예외 확대? 미승인",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 119.0,
+        "y": 556.0,
+        "width": 269.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 105.0,
+        "y": 182.0,
+        "width": 1015.0,
+        "height": 518.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 510.0,
+        "y": 254.0,
+        "width": 610.0,
+        "height": 446.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 834.0,
+        "y": 384.0,
+        "width": 47.45000076293945,
+        "height": 47.45000076293945
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

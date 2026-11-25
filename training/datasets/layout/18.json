@@ -1,0 +1,104 @@
+{
+  "file_key": "0Ru5gJLseeIVd8LNFMJs3B",
+  "file_name": "18",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "우천 운동장 출발 안내",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 278.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "트랙 평면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 56.0,
+        "y": 149.0,
+        "width": 801.0,
+        "height": 462.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 871.0,
+        "y": 337.0,
+        "width": 95.0,
+        "height": 85.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "우천 시 이쪽",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 823.0,
+        "y": 467.0,
+        "width": 112.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "트랙 평면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 56.0,
+        "y": 149.0,
+        "width": 801.0,
+        "height": 462.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 81.0,
+        "y": 190.0,
+        "width": 731.0,
+        "height": 351.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 871.0,
+        "y": 337.0,
+        "width": 95.0,
+        "height": 85.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

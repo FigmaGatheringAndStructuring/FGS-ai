@@ -1,0 +1,302 @@
+{
+  "file_key": "NYnygKqg7FgpHf7F5RZt2L",
+  "file_name": "09",
+  "page_id": "3:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "3:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "3:4",
+      "name": "번역방   /   잠금 범위 재검토",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 48.0,
+        "y": 27.0,
+        "width": 342.0,
+        "height": 36.0
+      }
+    },
+    {
+      "id": "3:5",
+      "name": "화 09:10   문단 전체를 묶자",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 75.0,
+        "y": 92.0,
+        "width": 236.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "3:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 59.0,
+        "y": 102.0,
+        "width": 304.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "3:8",
+      "name": "반려   ·   아래 v2로 교체",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 385.0,
+        "y": 99.0,
+        "width": 188.0,
+        "height": 23.0
+      }
+    },
+    {
+      "id": "3:9",
+      "name": "가람 편집 화면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 54.0,
+        "y": 170.0,
+        "width": 537.0,
+        "height": 260.0
+      }
+    },
+    {
+      "id": "3:19",
+      "name": "나래 화면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 520.0,
+        "y": 272.0,
+        "width": 518.0,
+        "height": 232.0
+      }
+    },
+    {
+      "id": "3:27",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 494.0,
+        "y": 314.0,
+        "width": 97.0,
+        "height": 95.0
+      }
+    },
+    {
+      "id": "3:29",
+      "name": "수 11:40  가람 / 저장하면 해제",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 664.0,
+        "y": 167.0,
+        "width": 263.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "3:30",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 1005.0,
+        "y": 168.0,
+        "width": 41.599998474121094,
+        "height": 41.599998474121094
+      }
+    },
+    {
+      "id": "3:32",
+      "name": "목 10:05   운영 / 미접속자 자동 해제는?",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 61.0,
+        "y": 456.0,
+        "width": 308.0,
+        "height": 23.0
+      }
+    },
+    {
+      "id": "3:33",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 100.0,
+        "y": 502.0,
+        "width": 80.5,
+        "height": 45.5
+      }
+    },
+    {
+      "id": "3:35",
+      "name": "다음 회의로",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 194.0,
+        "y": 508.0,
+        "width": 87.0,
+        "height": 22.0
+      }
+    },
+    {
+      "id": "3:36",
+      "name": "동시 시작이면?   아직 결론 없음",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 502.0,
+        "y": 536.0,
+        "width": 296.0,
+        "height": 28.0
+      }
+    },
+    {
+      "id": "3:37",
+      "name": "가람   먼저 친 사람 우선",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 496.0,
+        "y": 590.0,
+        "width": 193.0,
+        "height": 24.0
+      }
+    },
+    {
+      "id": "3:38",
+      "name": "나래   두 사람에게 선택창",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 779.0,
+        "y": 621.0,
+        "width": 207.0,
+        "height": 24.0
+      }
+    },
+    {
+      "id": "3:39",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 719.0,
+        "y": 580.0,
+        "width": 82.0,
+        "height": 62.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "3:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 59.0,
+        "y": 102.0,
+        "width": 304.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "3:9",
+      "name": "가람 편집 화면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 54.0,
+        "y": 170.0,
+        "width": 537.0,
+        "height": 260.0
+      }
+    },
+    {
+      "id": "3:15",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 72.0,
+        "y": 228.0,
+        "width": 60.0,
+        "height": 180.0
+      }
+    },
+    {
+      "id": "3:19",
+      "name": "나래 화면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 520.0,
+        "y": 272.0,
+        "width": 518.0,
+        "height": 232.0
+      }
+    },
+    {
+      "id": "3:23",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 546.0,
+        "y": 388.0,
+        "width": 32.0,
+        "height": 29.0
+      }
+    },
+    {
+      "id": "3:27",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 494.0,
+        "y": 314.0,
+        "width": 97.0,
+        "height": 95.0
+      }
+    },
+    {
+      "id": "3:30",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 1005.0,
+        "y": 168.0,
+        "width": 41.599998474121094,
+        "height": 41.599998474121094
+      }
+    },
+    {
+      "id": "3:33",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 100.0,
+        "y": 502.0,
+        "width": 80.5,
+        "height": 45.5
+      }
+    },
+    {
+      "id": "3:39",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 719.0,
+        "y": 580.0,
+        "width": 82.0,
+        "height": 62.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

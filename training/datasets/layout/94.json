@@ -1,0 +1,170 @@
+{
+  "file_key": "cUMFj1QKbE3qUomAdSwYaG",
+  "file_name": "94",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "시각 초인종 방별 동작",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 278.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 84.0,
+        "y": 151.0,
+        "width": 1036.0,
+        "height": 549.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "거실",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 155.0,
+        "y": 359.0,
+        "width": 41.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:8",
+      "name": "침실",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 470.0,
+        "y": 359.0,
+        "width": 41.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 152.0,
+        "y": 248.0,
+        "width": 968.0,
+        "height": 452.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "초인종 → 두 방에서 2회 점멸",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 770.0,
+        "y": 164.0,
+        "width": 262.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "침실 야간 강도를 낮출까?",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 766.0,
+        "y": 292.0,
+        "width": 228.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 805.0,
+        "y": 371.0,
+        "width": 87.4000015258789,
+        "height": 49.400001525878906
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "밝기 단계 · 추가 확인",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 765.0,
+        "y": 446.0,
+        "width": 194.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "승인 범위는 방과 점멸 횟수까지",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 153.0,
+        "y": 569.0,
+        "width": 283.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 84.0,
+        "y": 151.0,
+        "width": 1036.0,
+        "height": 549.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 152.0,
+        "y": 248.0,
+        "width": 968.0,
+        "height": 452.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 805.0,
+        "y": 371.0,
+        "width": 87.4000015258789,
+        "height": 49.400001525878906
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

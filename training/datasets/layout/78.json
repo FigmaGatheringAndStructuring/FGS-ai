@@ -1,0 +1,181 @@
+{
+  "file_key": "7Ii6187QnNj0fsDNAYp1oS",
+  "file_name": "78",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "종이책 낭독 화면 흐름",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 278.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "작업 영역",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 80.0,
+        "y": 181.0,
+        "width": 389.0,
+        "height": 296.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "작업 영역",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 633.0,
+        "y": 161.0,
+        "width": 389.0,
+        "height": 296.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 109.0,
+        "y": 209.0,
+        "width": 1011.0,
+        "height": 491.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 644.0,
+        "y": 185.0,
+        "width": 476.0,
+        "height": 515.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 468.0,
+        "y": 284.0,
+        "width": 652.0,
+        "height": 416.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "1. 책 모서리를 맞춰 스캔",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 118.0,
+        "y": 498.0,
+        "width": 221.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "2. 재생을 눌러 듣기",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 651.0,
+        "y": 475.0,
+        "width": 175.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 892.0,
+        "y": 555.0,
+        "width": 49.400001525878906,
+        "height": 49.400001525878906
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "페이지 넘김 이후 자동 재생 여부 미정",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 113.0,
+        "y": 595.0,
+        "width": 334.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 109.0,
+        "y": 209.0,
+        "width": 1011.0,
+        "height": 491.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 644.0,
+        "y": 185.0,
+        "width": 476.0,
+        "height": 515.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 468.0,
+        "y": 284.0,
+        "width": 652.0,
+        "height": 416.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 892.0,
+        "y": 555.0,
+        "width": 49.400001525878906,
+        "height": 49.400001525878906
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

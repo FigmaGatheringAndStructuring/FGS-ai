@@ -1,0 +1,247 @@
+{
+  "file_key": "OU9BQREoOCrq87oyjlNzEl",
+  "file_name": "08",
+  "page_id": "2:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "2:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "2:4",
+      "name": "인화실  /  6롤 중 2번째 띠",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 50.0,
+        "y": 43.0,
+        "width": 334.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "2:5",
+      "name": "밀착인화 띠",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 36.0,
+        "y": 155.0,
+        "width": 906.0,
+        "height": 223.0
+      }
+    },
+    {
+      "id": "2:26",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 737.0,
+        "y": 220.0,
+        "width": 310.0,
+        "height": 306.0
+      }
+    },
+    {
+      "id": "2:28",
+      "name": "부분 확대",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 745.0,
+        "y": 424.0,
+        "width": 310.0,
+        "height": 212.0
+      }
+    },
+    {
+      "id": "2:33",
+      "name": "빨강 연필    후보 컷에만 동그라미",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 60.0,
+        "y": 444.0,
+        "width": 285.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "2:34",
+      "name": "세부가 뭉개졌는지 한 번 더 보기",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 78.0,
+        "y": 518.0,
+        "width": 288.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "2:35",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 66.0,
+        "y": 579.0,
+        "width": 40.29999923706055,
+        "height": 40.29999923706055
+      }
+    },
+    {
+      "id": "2:46",
+      "name": "인화 비교본",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 102.0,
+        "y": 585.0,
+        "width": 82.0,
+        "height": 20.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "2:5",
+      "name": "밀착인화 띠",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 36.0,
+        "y": 155.0,
+        "width": 906.0,
+        "height": 223.0
+      }
+    },
+    {
+      "id": "2:6",
+      "name": "컷 11",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 62.0,
+        "y": 194.0,
+        "width": 240.0,
+        "height": 138.0
+      }
+    },
+    {
+      "id": "2:8",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 74.0,
+        "y": 204.0,
+        "width": 182.0,
+        "height": 123.0
+      }
+    },
+    {
+      "id": "2:12",
+      "name": "컷 12",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 351.0,
+        "y": 194.0,
+        "width": 240.0,
+        "height": 138.0
+      }
+    },
+    {
+      "id": "2:14",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 363.0,
+        "y": 204.0,
+        "width": 182.0,
+        "height": 123.0
+      }
+    },
+    {
+      "id": "2:18",
+      "name": "컷 13",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 643.0,
+        "y": 194.0,
+        "width": 240.0,
+        "height": 138.0
+      }
+    },
+    {
+      "id": "2:20",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 655.0,
+        "y": 204.0,
+        "width": 182.0,
+        "height": 123.0
+      }
+    },
+    {
+      "id": "2:24",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 329.0,
+        "y": 172.0,
+        "width": 284.0,
+        "height": 185.0
+      }
+    },
+    {
+      "id": "2:26",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 737.0,
+        "y": 220.0,
+        "width": 310.0,
+        "height": 306.0
+      }
+    },
+    {
+      "id": "2:28",
+      "name": "부분 확대",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 745.0,
+        "y": 424.0,
+        "width": 310.0,
+        "height": 212.0
+      }
+    },
+    {
+      "id": "2:44",
+      "name": "선택 영역 세 배 확대",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 820.0,
+        "y": 444.0,
+        "width": 153.0,
+        "height": 135.0
+      }
+    },
+    {
+      "id": "2:35",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 66.0,
+        "y": 579.0,
+        "width": 40.29999923706055,
+        "height": 40.29999923706055
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

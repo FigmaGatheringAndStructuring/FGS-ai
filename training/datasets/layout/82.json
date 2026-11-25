@@ -1,0 +1,192 @@
+{
+  "file_key": "Shurof2TSsp1kGkjVRzKWn",
+  "file_name": "82",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "사내 용어집 병합 기준",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 278.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "팀 가 · 작업대",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 98.0,
+        "y": 182.0,
+        "width": 129.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "팀 나 · 편집판",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 103.0,
+        "y": 315.0,
+        "width": 129.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "표준 용어 · 작업대",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 521.0,
+        "y": 232.0,
+        "width": 208.0,
+        "height": 32.0
+      }
+    },
+    {
+      "id": "1:8",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 256.0,
+        "y": 188.0,
+        "width": 864.0,
+        "height": 512.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 825.0,
+        "y": 224.0,
+        "width": 49.400001525878906,
+        "height": 49.400001525878906
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "‘버전’ · 배포 식별자 (개발)",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 111.0,
+        "y": 466.0,
+        "width": 242.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "‘버전’ · 수정 횟수 (편집)",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 114.0,
+        "y": 542.0,
+        "width": 222.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 501.0,
+        "y": 477.0,
+        "width": 619.0,
+        "height": 223.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "범위가 달라 병합 보류",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 669.0,
+        "y": 514.0,
+        "width": 206.0,
+        "height": 28.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 910.0,
+        "y": 551.0,
+        "width": 85.0999984741211,
+        "height": 48.099998474121094
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:8",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 256.0,
+        "y": 188.0,
+        "width": 864.0,
+        "height": 512.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 825.0,
+        "y": 224.0,
+        "width": 49.400001525878906,
+        "height": 49.400001525878906
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 501.0,
+        "y": 477.0,
+        "width": 619.0,
+        "height": 223.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 910.0,
+        "y": 551.0,
+        "width": 85.0999984741211,
+        "height": 48.099998474121094
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

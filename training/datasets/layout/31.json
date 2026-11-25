@@ -1,0 +1,181 @@
+{
+  "file_key": "7AG89yZjOpOIELoRBaT93l",
+  "file_name": "31",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "수로 수위 기록 · 동쪽 표척",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 338.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 91.0,
+        "y": 126.0,
+        "width": 803.0,
+        "height": 443.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "0 cm",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 129.0,
+        "y": 279.0,
+        "width": 51.0,
+        "height": 28.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "월",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 274.0,
+        "y": 546.0,
+        "width": 21.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "화",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 436.0,
+        "y": 545.0,
+        "width": 21.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "수",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 566.0,
+        "y": 545.0,
+        "width": 21.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "목",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 767.0,
+        "y": 545.0,
+        "width": 21.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "−4 cm",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 408.0,
+        "y": 395.0,
+        "width": 61.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "+3 cm",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 745.0,
+        "y": 207.0,
+        "width": 61.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:18",
+      "name": "시야 없음",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 549.0,
+        "y": 497.0,
+        "width": 79.0,
+        "height": 24.0
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "빈 날은 선을 잇지 말 것",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 811.0,
+        "y": 431.0,
+        "width": 188.0,
+        "height": 24.0
+      }
+    },
+    {
+      "id": "1:20",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 962.0,
+        "y": 501.0,
+        "width": 42.900001525878906,
+        "height": 42.900001525878906
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 91.0,
+        "y": 126.0,
+        "width": 803.0,
+        "height": 443.0
+      }
+    },
+    {
+      "id": "1:20",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 962.0,
+        "y": 501.0,
+        "width": 42.900001525878906,
+        "height": 42.900001525878906
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

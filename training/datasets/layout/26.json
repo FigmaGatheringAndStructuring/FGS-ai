@@ -1,0 +1,170 @@
+{
+  "file_key": "NEn205yaNqs4dmmhRXyni7",
+  "file_name": "26",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "교실 실시간 자막 시안 검토",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 342.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "교탁과 착석 방향",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 49.0,
+        "y": 188.0,
+        "width": 512.0,
+        "height": 306.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "자막 시안",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 683.0,
+        "y": 146.0,
+        "width": 362.0,
+        "height": 146.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "오디오 · 뒤쪽 출력은 유지",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 637.0,
+        "y": 329.0,
+        "width": 235.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "교사 · 말이 화면에 글자로 뜨면 좋겠어요.",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 596.0,
+        "y": 432.0,
+        "width": 372.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 480.0,
+        "y": 260.0,
+        "width": 258.0,
+        "height": 210.0
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "연결 검토 전   /   출력과 입력 분리",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 656.0,
+        "y": 559.0,
+        "width": 288.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:20",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 459.0,
+        "y": 537.0,
+        "width": 79.3499984741211,
+        "height": 44.849998474121094
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "교탁과 착석 방향",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 49.0,
+        "y": 188.0,
+        "width": 512.0,
+        "height": 306.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 72.0,
+        "y": 220.0,
+        "width": 450.0,
+        "height": 221.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "자막 시안",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 683.0,
+        "y": 146.0,
+        "width": 362.0,
+        "height": 146.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 480.0,
+        "y": 260.0,
+        "width": 258.0,
+        "height": 210.0
+      }
+    },
+    {
+      "id": "1:20",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 459.0,
+        "y": 537.0,
+        "width": 79.3499984741211,
+        "height": 44.849998474121094
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

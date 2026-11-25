@@ -1,0 +1,137 @@
+{
+  "file_key": "D5Q8mfpzO5jlao8hL3sZyI",
+  "file_name": "38",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "영화제 티켓 안내 문구 점검",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 342.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "티켓 왼쪽 반쪽",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 82.0,
+        "y": 151.0,
+        "width": 483.0,
+        "height": 338.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "문장 A · 상영 10분 전부터 입장",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 640.0,
+        "y": 208.0,
+        "width": 283.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "문장 B · 좌석을 다른 관객에게 넘김",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 641.0,
+        "y": 326.0,
+        "width": 320.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 648.0,
+        "y": 482.0,
+        "width": 48.75,
+        "height": 48.75
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "재발행 시안 후보",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 715.0,
+        "y": 493.0,
+        "width": 145.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "원본 오른쪽 도안 요청 중",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 95.0,
+        "y": 591.0,
+        "width": 223.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "티켓 왼쪽 반쪽",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 82.0,
+        "y": 151.0,
+        "width": 483.0,
+        "height": 338.0
+      }
+    },
+    {
+      "id": "1:8",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 254.0,
+        "y": 346.0,
+        "width": 300.0,
+        "height": 106.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 648.0,
+        "y": 482.0,
+        "width": 48.75,
+        "height": 48.75
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

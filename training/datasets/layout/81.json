@@ -1,0 +1,247 @@
+{
+  "file_key": "OQTa0E0asy9Bg7kmecROr5",
+  "file_name": "81",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "다회용기 회수대 작업 절차",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 335.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "작업 영역",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 83.0,
+        "y": 195.0,
+        "width": 274.0,
+        "height": 152.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "작업 영역",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 417.0,
+        "y": 265.0,
+        "width": 274.0,
+        "height": 152.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "작업 영역",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 757.0,
+        "y": 198.0,
+        "width": 274.0,
+        "height": 152.0
+      }
+    },
+    {
+      "id": "1:8",
+      "name": "① 반환 접수",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 111.0,
+        "y": 215.0,
+        "width": 134.0,
+        "height": 31.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "반환 수량 기록",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 114.0,
+        "y": 281.0,
+        "width": 132.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "② 세척 대기",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 452.0,
+        "y": 287.0,
+        "width": 134.0,
+        "height": 31.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "미세척 칸에 둠",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 452.0,
+        "y": 352.0,
+        "width": 132.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "③ 세척 완료",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 786.0,
+        "y": 218.0,
+        "width": 134.0,
+        "height": 31.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "깨끗한 칸으로 이동",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 786.0,
+        "y": 285.0,
+        "width": 172.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 359.0,
+        "y": 265.0,
+        "width": 761.0,
+        "height": 435.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 692.0,
+        "y": 264.0,
+        "width": 428.0,
+        "height": 436.0
+      }
+    },
+    {
+      "id": "1:18",
+      "name": "반환표에 ‘완료’까지 한 번에?",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 102.0,
+        "y": 513.0,
+        "width": 261.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 101.0,
+        "y": 532.0,
+        "width": 1019.0,
+        "height": 168.0
+      }
+    },
+    {
+      "id": "1:21",
+      "name": "반환과 세척 완료를 따로 기록",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 567.0,
+        "y": 526.0,
+        "width": 263.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:22",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 945.0,
+        "y": 574.0,
+        "width": 46.150001525878906,
+        "height": 46.150001525878906
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:14",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 359.0,
+        "y": 265.0,
+        "width": 761.0,
+        "height": 435.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 692.0,
+        "y": 264.0,
+        "width": 428.0,
+        "height": 436.0
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 101.0,
+        "y": 532.0,
+        "width": 1019.0,
+        "height": 168.0
+      }
+    },
+    {
+      "id": "1:22",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 945.0,
+        "y": 574.0,
+        "width": 46.150001525878906,
+        "height": 46.150001525878906
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

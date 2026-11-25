@@ -1,0 +1,104 @@
+{
+  "file_key": "PFotr52iaW30dHajivAZM7",
+  "file_name": "43",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "자전거 보관대 위치 안내",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 306.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "보관대 정면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 111.0,
+        "y": 173.0,
+        "width": 830.0,
+        "height": 315.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "입구에서 바라본 정면",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 173.0,
+        "y": 562.0,
+        "width": 201.0,
+        "height": 28.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "보관대 정면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 111.0,
+        "y": 173.0,
+        "width": 830.0,
+        "height": 315.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 137.0,
+        "y": 208.0,
+        "width": 744.0,
+        "height": 228.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 256.0,
+        "y": 293.0,
+        "width": 78.0,
+        "height": 78.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 637.0,
+        "y": 283.0,
+        "width": 80.0,
+        "height": 80.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

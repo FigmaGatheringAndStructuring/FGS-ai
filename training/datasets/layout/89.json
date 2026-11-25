@@ -1,0 +1,170 @@
+{
+  "file_key": "FkGdTuZKVoAUZulFlR7xsq",
+  "file_name": "89",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "재단 패턴 배치 지침",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 249.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 85.0,
+        "y": 153.0,
+        "width": 1035.0,
+        "height": 547.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 151.0,
+        "y": 193.0,
+        "width": 969.0,
+        "height": 507.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 507.0,
+        "y": 373.0,
+        "width": 613.0,
+        "height": 327.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "파랑 · 결 방향으로 맞춤",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 819.0,
+        "y": 163.0,
+        "width": 215.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "빨강 X · 이 부분 포개기 금지",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 819.0,
+        "y": 267.0,
+        "width": 257.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 832.0,
+        "y": 341.0,
+        "width": 50.04999923706055,
+        "height": 50.04999923706055
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "아랫단은 겹치지 않게 벌려 놓기",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 149.0,
+        "y": 551.0,
+        "width": 283.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "재단 여유 폭은 다음 교정에서 결정",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 117.0,
+        "y": 606.0,
+        "width": 294.0,
+        "height": 25.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 85.0,
+        "y": 153.0,
+        "width": 1035.0,
+        "height": 547.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 151.0,
+        "y": 193.0,
+        "width": 969.0,
+        "height": 507.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 507.0,
+        "y": 373.0,
+        "width": 613.0,
+        "height": 327.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 832.0,
+        "y": 341.0,
+        "width": 50.04999923706055,
+        "height": 50.04999923706055
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

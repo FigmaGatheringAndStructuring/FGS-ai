@@ -1,0 +1,159 @@
+{
+  "file_key": "eWS403mY7JA95HnzibAMGL",
+  "file_name": "53",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "한손 키보드 전환 동작",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 278.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "작업 영역",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 71.0,
+        "y": 176.0,
+        "width": 438.0,
+        "height": 348.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "작업 영역",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 583.0,
+        "y": 139.0,
+        "width": 438.0,
+        "height": 348.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 103.0,
+        "y": 233.0,
+        "width": 1017.0,
+        "height": 467.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 617.0,
+        "y": 202.0,
+        "width": 503.0,
+        "height": 498.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "왼손 모드",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 103.0,
+        "y": 190.0,
+        "width": 86.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "오른손 모드",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 614.0,
+        "y": 154.0,
+        "width": 107.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "왼손 ↔ 오른손 전환",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 129.0,
+        "y": 553.0,
+        "width": 179.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 871.0,
+        "y": 540.0,
+        "width": 54.599998474121094,
+        "height": 54.599998474121094
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 103.0,
+        "y": 233.0,
+        "width": 1017.0,
+        "height": 467.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 617.0,
+        "y": 202.0,
+        "width": 503.0,
+        "height": 498.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 871.0,
+        "y": 540.0,
+        "width": 54.599998474121094,
+        "height": 54.599998474121094
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "file_key": "HMJsdMW3EFsTmzHIEiXUej",
+  "file_name": "93",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "철새 관찰 중복 검토",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 249.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 83.0,
+        "y": 168.0,
+        "width": 1037.0,
+        "height": 532.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 153.0,
+        "y": 221.0,
+        "width": 967.0,
+        "height": 479.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "07:14 · 갈대섬 · 6마리",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 141.0,
+        "y": 373.0,
+        "width": 213.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "07:17 · 수문 · 6마리",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 406.0,
+        "y": 426.0,
+        "width": 193.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "07:27 · 둔치 · 4마리",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 687.0,
+        "y": 337.0,
+        "width": 193.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 190.0,
+        "y": 467.0,
+        "width": 930.0,
+        "height": 255.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "앞의 두 목격은 같은 무리일 가능성",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 237.0,
+        "y": 522.0,
+        "width": 308.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 906.0,
+        "y": 508.0,
+        "width": 82.80000305175781,
+        "height": 46.79999923706055
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "세 목격 모두 보존 · 고유 개체 수는 보류",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 176.0,
+        "y": 609.0,
+        "width": 356.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 83.0,
+        "y": 168.0,
+        "width": 1037.0,
+        "height": 532.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 153.0,
+        "y": 221.0,
+        "width": 967.0,
+        "height": 479.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 190.0,
+        "y": 467.0,
+        "width": 930.0,
+        "height": 255.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 906.0,
+        "y": 508.0,
+        "width": 82.80000305175781,
+        "height": 46.79999923706055
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 722.0
+  }
+}

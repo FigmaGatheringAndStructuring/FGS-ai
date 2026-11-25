@@ -1,0 +1,1002 @@
+[
+  {
+    "번호": "00",
+    "파일명": "00",
+    "URL": "https://www.figma.com/design/nelZ8gxttJtMLlqO1G8rrr?node-id=2-19",
+    "output": "# 야간 반납\n\n빨간 필기는 ‘밤’이다. 화살표 끝은 정면에서 오른쪽인 2번 투입구에 닿는다.",
+    "output2": "# 분관 반납함 표지 작업\n\n- 오른쪽 2번 투입구를 야간 반납용으로 표시한다.\n- 안내 표지는 해당 투입구 위에 부착한다.",
+    "layout": "out\\layout\\00.json",
+    "image": "out\\image\\00.png",
+    "error": null
+  },
+  {
+    "번호": "01",
+    "파일명": "01",
+    "URL": "https://www.figma.com/design/GBnn1Dc6Zw4yshThFAeaCz?node-id=1-22",
+    "output": "# 구간 표식 검토\n\n- ㄱ · 관련 있음. 깃발은 03:20 한 지점을 짚고, 메모는 그 지점부터 다시 듣는 동작이다.\n- ㄴ · 관련 없음. 회차 전체를 내려받는 동작은 한 시점에 꽂은 깃발과 다르다.\n- ㄷ · 판단 불가. 종이에 가려진 표식의 일부만 보여 배속 변경인지 식별할 수 없다.",
+    "output2": "# 팟캐스트 2차 청취 편집 메모\n\n## 구간 재청취\n03:20부터 다시 듣는다.\n\n## 별도 요청과 확인 사항\n- 회차 전체 다운로드 요청이 있다.\n- 배속 변경 지원 여부는 확인이 필요하다.",
+    "layout": "out\\layout\\01.json",
+    "image": "out\\image\\01.png",
+    "error": null
+  },
+  {
+    "번호": "02",
+    "파일명": "02",
+    "URL": "https://www.figma.com/design/HxlIuQmfzGeRUleYiDoNUp?node-id=1-18",
+    "output": "# 실습실 장비 인계\n\n> 교대할 때는 장비 상태와 담당자를 함께 남긴다.\n\n- 2번 확대경의 고정 나사가 헐겁다. 예비 받침은 점검을 마쳤다.\n- 다음 조 담당자는 확인 후 한 번 서명한다. 여백의 요청도 같은 서명을 가리킨다.",
+    "output2": "# 실습실 저녁 교대 인계\n\n| 장비 | 상태 |\n|---|---|\n| 2번 확대경 | 고정 나사가 헐거움 |\n| 예비 받침 | 점검 완료 |\n\n다음 조 담당자는 장비 상태를 확인한 뒤 인계란에 서명한다. 교대 기록에는 장비 상태와 담당자를 함께 남긴다.",
+    "layout": "out\\layout\\02.json",
+    "image": "out\\image\\02.png",
+    "error": null
+  },
+  {
+    "번호": "03",
+    "파일명": "03",
+    "URL": "https://www.figma.com/design/pOKkNR31sx4EYFpXPJBeB4?node-id=1-21",
+    "output": "# 조율 화면\n\n- 연주자는 2번 현을 튕긴 뒤 표시된 음 이름 A와 기준 음정에서 벗어난 방향을 확인할 수 있다.\n- 중앙 눈금의 왼쪽은 ‘낮음’이며 바늘도 그쪽을 가리킨다. 현재 음정은 기준보다 낮게 표시된다.\n- 현의 장력을 자동 조정하는지는 화면에서 확인할 수 없다.",
+    "output2": "# 현악기 조율 화면 명세 초안\n\n- 2번 현을 한 번 튕긴 뒤 음 이름과 기준 음정 대비 편차를 확인한다.\n- 기준은 중앙이다. 왼쪽은 낮음, 오른쪽은 높음이다.\n- 시안의 예시는 음 이름 A이며 기준보다 낮다.\n\n현 장력의 자동 조절 지원 여부는 확인이 필요하다.",
+    "layout": "out\\layout\\03.json",
+    "image": "out\\image\\03.png",
+    "error": null
+  },
+  {
+    "번호": "04",
+    "파일명": "04",
+    "URL": "https://www.figma.com/design/MyMa2IN62hgiN3FFtadlA1?node-id=1-26",
+    "output": "# 도서차 목요일 시범 노선\n\n- 확정 · 학교와 시장 사이에 느티쉼터를 임시 정차지로 넣는다. 순서는 학교 → 느티쉼터 → 시장이다.\n- 시각 · 시장 도착은 기존 16:00을 유지한다. 16:20 변경안은 철회됐다.\n- 확인 필요 · 비가 올 때 느티쉼터에 정차할지는 현장 회신을 기다린다.",
+    "output2": "# 목요일 도서차 운행 안내\n\n이번 목요일에는 **학교 → 느티쉼터 → 시장** 순서로 운행한다. 느티쉼터는 임시 정차지다. 시장 도착 시각은 **16:00**으로 유지한다.\n\n우천 시 느티쉼터 정차 여부는 현장 회신 후 확인한다.",
+    "layout": "out\\layout\\04.json",
+    "image": "out\\image\\04.png",
+    "error": null
+  },
+  {
+    "번호": "05",
+    "파일명": "05",
+    "URL": "https://www.figma.com/design/ybl7d2Ca25n9uWXxEat6VR?node-id=1-25",
+    "output": "# 조명 리허설 변경\n\n- 벡터 필기는 `GO`이다. 7번 측광의 실행을 12마디에서 14마디로 옮긴다.\n- 8번 뒤광은 줄 전체에 취소선이 그어져 실행하지 않는다.\n- 9번 객석등은 16마디의 원래 표시를 유지한다.",
+    "output2": "# 2막 리허설 조명 실행표\n\n| 큐 | 실행 시점 | 작업 |\n|---|---|---|\n| 7 측광 | 14마디 | 실행 |\n| 9 객석등 | 16마디 | 복귀 |\n\n8번 뒤광은 이번 리허설에서 실행하지 않는다.",
+    "layout": "out\\layout\\05.json",
+    "image": "out\\image\\05.png",
+    "error": null
+  },
+  {
+    "번호": "06",
+    "파일명": "06",
+    "URL": "https://www.figma.com/design/0sWmqzrzMZ4LDemk5CgmQF?node-id=1-29",
+    "output": "# 호출기 표시 검토\n\n- A · 관련 없음. 종에서 퍼지는 소리 표식과 ‘소리 없이 기기만 떨린다’는 작동 방식이 다르다.\n- B · 관련 있음. 기기 양쪽의 흔들림선은 손안에서 떨림으로 순서를 알리는 동작에 대응한다.\n- C · 판단 불가. 버튼이 영수증에 가려져 음량 조절을 뜻하는지 확인할 수 없다.",
+    "output2": "# 대기 호출기 현장 비교 메모\n\n| 시안 | 검토 결과 |\n|---|---|\n| A | 소리 호출 표시가 있어 무음 진동 요구와 맞지 않는다. |\n| B | 손안에서 진동으로 차례를 알리는 시안이다. |\n| C | 음량 조절 기능의 지원 여부를 확인해야 한다. |",
+    "layout": "out\\layout\\06.json",
+    "image": "out\\image\\06.png",
+    "error": null
+  },
+  {
+    "번호": "07",
+    "파일명": "07",
+    "URL": "https://www.figma.com/design/lGwOkiAARCZPheBcMbIafm?node-id=1-21",
+    "output": "# 공연 자막 교체 기준\n\n자막 교체는 공연 30분 전에 마감하고 그때의 파일을 송출하되, 마감 후 이름 오탈자의 처리 기준은 미정이다.\n\n- 합의 · 대기실 시계 기준 30분 전에 파일을 닫고 그 버전을 사용한다.\n- 반대 · 현장 담당은 늦게 도착하는 배우도 있어 일괄 마감에 반대했다.\n- 미결 · 이름 오탈자만 공연 10분 전까지 고치자는 요청에는 아직 답이 없다.",
+    "output2": "# 공연 자막팀 회의록\n\n## 결정\n대기실 시계 기준 공연 30분 전에 자막 파일을 마감하고 그 버전으로 송출한다.\n\n## 남은 쟁점\n현장 담당은 늦게 도착하는 배우 때문에 일괄 마감에 반대했다. 이름 오탈자에 한해 공연 10분 전까지 수정하자는 후속 요청은 답변 대기 중이다.",
+    "layout": "out\\layout\\07.json",
+    "image": "out\\image\\07.png",
+    "error": null
+  },
+  {
+    "번호": "08",
+    "파일명": "08",
+    "URL": "https://www.figma.com/design/OU9BQREoOCrq87oyjlNzEl?node-id=2-37",
+    "output": "# 밀착인화 검토\n\n- 붉게 둘러친 12번 컷은 후보로 고른다. 11번과 13번에는 후보 표시가 없다.\n- 13번 컷의 작은 사각형에서 뻗은 파란 선은 바깥의 확대 창으로 이어진다. 그 부분의 세부를 확인하는 기능으로 해석된다.\n- 후보 선택과 확대 확인은 서로 다른 컷에 적용됐다. 영구 보관 여부는 확인할 수 없다.",
+    "output2": "# 인화실 검토 기록\n\n- 6롤 중 두 번째 필름 띠에서 12번 컷을 후보에 올린다.\n- 13번 컷은 부분을 3배 확대해 세부가 뭉개졌는지 확인한다.\n- 영구 보관 여부는 확인이 필요하다.",
+    "layout": "out\\layout\\08.json",
+    "image": "out\\image\\08.png",
+    "error": null
+  },
+  {
+    "번호": "09",
+    "파일명": "09",
+    "URL": "https://www.figma.com/design/NYnygKqg7FgpHf7F5RZt2L?node-id=3-41",
+    "output": "# 공동 번역 편집기의 잠금\n\n## 확정 동작\n- 가람이 두 번째 문장을 편집하는 동안 그 문장만 잠긴다. 나래 화면에서는 같은 문장이 읽기 전용이다.\n- 첫째·셋째 문장은 편집할 수 있다. 가람이 저장하면 둘째 문장의 잠금이 풀린다.\n\n## 변경 이력\n- 문단 전체 잠금은 반려됐다. 이전 괄호를 현재 범위로 해석하지 않는다.\n- 미접속자의 잠금을 자동 해제하는 기능은 보류됐다.\n\n## 미정\n- 두 사람이 동시에 입력을 시작할 때 선착순으로 정할지, 선택창을 띄울지 합의되지 않았다.",
+    "output2": "# 공동 번역 편집기 기능 명세\n\n## 문장 잠금\n편집 중인 문장 하나를 잠근다. 다른 편집자는 해당 문장을 읽을 수 있으며, 나머지 문장은 계속 편집할 수 있다. 편집자가 저장하면 잠금을 해제한다.\n\n## 정책 결정 기록\n- 문단 전체 잠금은 반려했다.\n- 미접속자의 잠금 자동 해제는 다음 회의로 보류했다.\n- 동시 입력 시작 시 선착순으로 처리할지 두 사람에게 선택창을 띄울지 미정이다.",
+    "layout": "out\\layout\\09.json",
+    "image": "out\\image\\09.png",
+    "error": null
+  },
+  {
+    "번호": "10",
+    "파일명": "10",
+    "URL": "https://www.figma.com/design/jmf3yukMAx7rYHQOqQjdNo?node-id=1-18",
+    "output": "# 합주 연습 루프 · 시각 분석\n\n두 손잡이가 01:24와 01:48을 표시한다. 파란 화살표가 오른쪽에서 왼쪽으로 되돌아가므로 지정 구간을 반복하는 스케치다. AB 필기는 경계 두 개를 묶는다.",
+    "output2": "# 합주 구간 반복\n\n## 재생 동작\n01:24부터 01:48까지 재생하고 종료점에 도달하면 01:24로 돌아간다.\n\n반복 횟수 설정은 다음 검토에서 논의한다.",
+    "layout": "out\\layout\\10.json",
+    "image": "out\\image\\10.png",
+    "error": null
+  },
+  {
+    "번호": "11",
+    "파일명": "11",
+    "URL": "https://www.figma.com/design/w6YksKogwSl9q4xWPEzR1O?node-id=1-22",
+    "output": "# 급식 잔반 계량 · 시각 분석\n\n왼쪽 저울은 통 포함 2.4 kg이고 여백에 빈 통 0.4 kg의 차감 지시가 있다. 오른쪽 파란 기준선은 순잔반의 0이다. 계산 결과 2.0 kg을 일지에 넣는다.",
+    "output2": "# 급식 잔반 측정 절차\n\n1. 통을 포함해 무게를 잰다.\n2. 빈 통 무게 0.4 kg을 뺀다. 이번 측정의 순잔반은 **2.0 kg**이다.\n3. 그래프의 0은 순잔반이 없는 상태로 두고 순잔반 값을 기록한다.",
+    "layout": "out\\layout\\11.json",
+    "image": "out\\image\\11.png",
+    "error": null
+  },
+  {
+    "번호": "12",
+    "파일명": "12",
+    "URL": "https://www.figma.com/design/FE3XmScoTuEVed394qu1kG?node-id=1-19",
+    "output": "# 직조 무늬 · 시각 분석\n\n원은 세로실 위, 빗금은 가로실 위다. 원은 1행 1열·2행 3열, 빗금은 1행 2·3열과 2행 1열이다. 빈 칸은 표기가 없다.",
+    "output2": "# 직조 샘플 실 방향\n\n| 행 | 1열 | 2열 | 3열 |\n|---|---|---|---|\n| 1 | 세로실 위 | 가로실 위 | 가로실 위 |\n| 2 | 가로실 위 | 미기재 | 세로실 위 |\n| 3 | 미기재 | 미기재 | 미기재 |",
+    "layout": "out\\layout\\12.json",
+    "image": "out\\image\\12.png",
+    "error": null
+  },
+  {
+    "번호": "13",
+    "파일명": "13",
+    "URL": "https://www.figma.com/design/Xaalyru0gCSbN3nR71T3Ae?node-id=1-17",
+    "output": "# 박물관 유물 복제 신청 · 시각 분석\n\n겹친 종이에서 파란 연결선이 보존팀의 복제품 제작 허가로 향한다. 승인서 발급 문구도 그 해석을 지지한다. IT의 사진 파일 복사와는 대응하지 않는다. 다운로드 지원은 미확정이다.",
+    "output2": "# 유물 복제 신청 검토\n\n전시용 복제품 제작 허가를 신청하고 승인서를 발급하는 화면을 검토한다.\n\n승인 뒤 다운로드 지원 여부는 별도로 확인한다.",
+    "layout": "out\\layout\\13.json",
+    "image": "out\\image\\13.png",
+    "error": null
+  },
+  {
+    "번호": "14",
+    "파일명": "14",
+    "URL": "https://www.figma.com/design/GVUVWmGa79fGodjKFVYql2?node-id=1-16",
+    "output": "# 정원 물주기 순번 · 시각 분석\n\n마지막 문장 및 OK가 당번 합의를 나타낸다. 자동화는 수아의 제안이며 승인 표시가 없다. 물통 위치는 재호 메모에 있다.",
+    "output2": "# 정원 물주기 당번\n\n| 요일 | 당번 |\n|---|---|\n| 월·수 | 수아 |\n| 금 | 재호 |\n\n물통은 창고 입구에 둔다. 이 배정은 이번 주에 적용하며 다음 주 순번과 자동 물주기 도입은 미정이다.",
+    "layout": "out\\layout\\14.json",
+    "image": "out\\image\\14.png",
+    "error": null
+  },
+  {
+    "번호": "15",
+    "파일명": "15",
+    "URL": "https://www.figma.com/design/DdZgQR9NHgUXuqm6GxIwnv?node-id=1-14",
+    "output": "# 점심 식단 투표 · 시각 분석\n\n가장 많은 표는 비빔밥 7표다. HOLD와 주방 확인 문구가 선정은 보류임을 보여준다.",
+    "output2": "# 점심 시식 후보 의견\n\n| 후보 | 표 |\n|---|---:|\n| 비빔밥 | 7 |\n| 국수 | 4 |\n| 덮밥 | 2 |\n\n비빔밥의 선호도가 가장 높았다. 실제 시식 메뉴는 주방 확인 후 결정한다.",
+    "layout": "out\\layout\\15.json",
+    "image": "out\\image\\15.png",
+    "error": null
+  },
+  {
+    "번호": "16",
+    "파일명": "16",
+    "URL": "https://www.figma.com/design/bEaareRmtODq4gyCFewpjF?node-id=1-17",
+    "output": "# 제과 반죽 타이머 · 시각 분석\n\n다이얼에 혼합 8분과 휴지 20분이 보인다. 전환 화살표에 물음표가 있어 휴지 타이머가 자동으로 시작되는지는 확정할 수 없다.",
+    "output2": "# 반죽 타이머 화면\n\n## 표시\n혼합 8분과 휴지 20분을 한 화면에서 확인할 수 있도록 한다.\n\n## 확인 필요\n혼합이 끝나면 휴지를 자동으로 시작할지, 휴지를 별도로 시작할지 정해야 한다.",
+    "layout": "out\\layout\\16.json",
+    "image": "out\\image\\16.png",
+    "error": null
+  },
+  {
+    "번호": "17",
+    "파일명": "17",
+    "URL": "https://www.figma.com/design/aQXPgwP0ZGOfHAgv5uxXhu?node-id=1-19",
+    "output": "# 수어 공연 시야 확보 · 시각 분석\n\nA3–A5가 기둥에 가려진다고 적혀 있다. A8–A10은 파란 표시와 확정 메모로 연결된다. B열은 추가 검토이며 확정되지 않았다.",
+    "output2": "# 수어 공연 우선석 배치\n\n- 수어 관람 우선석은 **A8–A10**으로 배정한다.\n- A3–A5는 기둥에 가려져 우선석 배정에서 제외한다.\n- B열 추가 배정은 검토 중이다.",
+    "layout": "out\\layout\\17.json",
+    "image": "out\\image\\17.png",
+    "error": null
+  },
+  {
+    "번호": "18",
+    "파일명": "18",
+    "URL": "https://www.figma.com/design/0Ru5gJLseeIVd8LNFMJs3B?node-id=1-17",
+    "output": "# 우천 운동장 차선 · 시각 분석\n\n왼쪽 옛 출발선에는 X가 있다. 오른쪽 배수구 옆 선은 여백의 붉은 벡터 ‘출’과 대응하고 진행 화살표는 오른쪽을 향한다.",
+    "output2": "# 우천 운동장 출발 안내\n\n비가 오면 배수구 옆 출발선을 사용하고 오른쪽 방향으로 출발한다.",
+    "layout": "out\\layout\\18.json",
+    "image": "out\\image\\18.png",
+    "error": null
+  },
+  {
+    "번호": "19",
+    "파일명": "19",
+    "URL": "https://www.figma.com/design/6vlJxaLDPK9tohqFndlQpj?node-id=1-16",
+    "output": "# 기숙사 세탁 종료 · 시각 분석\n\n범례에서 물방울은 헹굼 단계다. 남은 시간은 숫자 07과 분 표시에 해당하므로 그림과 잔여 시간 문구는 불일치한다.",
+    "output2": "# 세탁기 종료 표시판 확인\n\n현재 세탁기는 **헹굼 중**이며, 예상 종료까지 **7분** 남았다.",
+    "layout": "out\\layout\\19.json",
+    "image": "out\\image\\19.png",
+    "error": null
+  },
+  {
+    "번호": "20",
+    "파일명": "20",
+    "URL": "https://www.figma.com/design/78QxcfaIkOwjTTryKmHw2c?node-id=1-17",
+    "output": "# 여행 경비 환산 · 시각 분석\n\n순환 화살표 안의 두 통화 코드는 표시 통화 전환을 지지한다. 붉은 환불 문구의 ‘되돌리기’는 결제 취소에 관한 내용으로, 같은 동작이 아니다.",
+    "output2": "# 여행 경비 환산 검토\n\n여행 경비 화면에서 48 EUR 결제액을 원화로 환산해 볼 수 있도록 한다. 적용 환율과 환산액은 확인이 필요하다.",
+    "layout": "out\\layout\\20.json",
+    "image": "out\\image\\20.png",
+    "error": null
+  },
+  {
+    "번호": "21",
+    "파일명": "21",
+    "URL": "https://www.figma.com/design/gokSOfl82dsMjsUhRW9Zd2?node-id=1-17",
+    "output": "# 수리비 견적 유효기간 · 시각 분석\n\n상단의 7일은 어제 메일의 제안 인용이다. 오늘 회신 본문과 확인 표시가 14일 및 적용 범위를 지지한다. 하단에는 만료 후 재견적 요청이 있다.",
+    "output2": "# 수리 견적 유효기간 안내\n\n견적은 발행일부터 **14일간** 유효하다. 이미 발행된 견적에도 이 기준을 적용한다. 기한이 지나면 재견적을 요청한다.",
+    "layout": "out\\layout\\21.json",
+    "image": "out\\image\\21.png",
+    "error": null
+  },
+  {
+    "번호": "22",
+    "파일명": "22",
+    "URL": "https://www.figma.com/design/9FnlPW8hVY503Ud2XBp5U5?node-id=1-20",
+    "output": "# 승강기 층별 안내 · 시각 분석\n\n밝은 칸이 2층에 있고 범례는 현재 층으로 정의한다. 점선이 3층을 둘러싸 목적지를 나타낸다. 문 열림 표시는 별도 검토다.",
+    "output2": "# 승강기 층별 이동 상태\n\n승강기 화면에서 현재 층은 **2층**, 목적지는 **3층**으로 구분해 표시한다. 문 열림 상태 표시 방식은 별도로 검토한다.",
+    "layout": "out\\layout\\22.json",
+    "image": "out\\image\\22.png",
+    "error": null
+  },
+  {
+    "번호": "23",
+    "파일명": "23",
+    "URL": "https://www.figma.com/design/NHghZgw0G0oHWsQiGWl8Aw?node-id=1-22",
+    "output": "# 분실 우산 보관 · 시각 분석\n\n칸과 이동 화살표는 건조 후 회수 단계로 이어진다. 파란 목요일 폐기는 붉은 선으로 취소됐고 금요일 18시까지가 보관 기준이다. 이후의 조치는 미정이다.",
+    "output2": "# 분실 우산 보관 절차\n\n1. 젖은 우산은 건조 칸에 둔다.\n2. 마른 우산은 회수 칸으로 옮긴다.\n3. 금요일 18시까지 보관한다.\n\n기한이 지난 우산의 처리 방법은 회의에서 확인한다.",
+    "layout": "out\\layout\\23.json",
+    "image": "out\\image\\23.png",
+    "error": null
+  },
+  {
+    "번호": "24",
+    "파일명": "24",
+    "URL": "https://www.figma.com/design/LqWzKRAXyN2lUnpLzM0kFm?node-id=1-19",
+    "output": "# 방언 녹음 노트 · 시각 분석\n\n파형의 쉼표는 첫 구절과 둘째 구절 사이에 놓인다. 왼쪽 구간 옆 X와 아래 철회 메모는 첫 구절 반복을 취소한다. 오른쪽 되감기 표시는 ‘돌담 너머’에 붙고 ‘2번만’이 범위를 제한한다.",
+    "output2": "# 방언 녹음 편집 지시\n\n테이크 4에서 ‘마을 어귀’는 한 번 사용한다. 다음 구절 앞의 호흡을 살리고, ‘돌담 너머’는 두 번만 사용한다.",
+    "layout": "out\\layout\\24.json",
+    "image": "out\\image\\24.png",
+    "error": null
+  },
+  {
+    "번호": "25",
+    "파일명": "25",
+    "URL": "https://www.figma.com/design/FgYJ88RiCYOcYYgtdDtKoJ?node-id=1-17",
+    "output": "# 점토 수축 실험 · 시각 분석\n\n파랑 바깥 윤곽과 긴 가로 치수는 건조 전 100 mm다. 빨강 안쪽 윤곽의 짧은 가로 치수는 건조 후 81 mm다. 세로 치수는 기재되지 않았다.",
+    "output2": "# 점토 시편 건조 전후 치수\n\n| 시편 | 건조 전 폭 | 건조 후 폭 | 감소 |\n|---|---:|---:|---:|\n| A | 100 mm | 81 mm | 19 mm |\n\n측정 범위는 가로 폭이다.",
+    "layout": "out\\layout\\25.json",
+    "image": "out\\image\\25.png",
+    "error": null
+  },
+  {
+    "번호": "26",
+    "파일명": "26",
+    "URL": "https://www.figma.com/design/NEn205yaNqs4dmmhRXyni7?node-id=1-22",
+    "output": "# 교실 음향 자막 · 시각 분석\n\n왼쪽 음파는 교실 후방 출력과 대응한다. 자막 시안은 별도 영역에 있으며 끊긴 연결과 마이크 입력 물음표 때문에 스피커 그림만으로 받아쓰기 기능을 뒷받침할 수 없다.",
+    "output2": "# 교실 실시간 자막 시안 검토\n\n- 교실 뒤쪽 스피커 출력은 유지한다.\n- 교사 발화를 수업 중 자막으로 띄우는 기능을 검토한다.\n- 자막에 사용할 마이크 입력 경로는 확인이 필요하다.",
+    "layout": "out\\layout\\26.json",
+    "image": "out\\image\\26.png",
+    "error": null
+  },
+  {
+    "번호": "27",
+    "파일명": "27",
+    "URL": "https://www.figma.com/design/kXaLkRoztEm1VdLUrKA0KG?node-id=1-18",
+    "output": "# 어린이집 준비물 공지 · 시각 분석\n\n본문과 여백의 연결선은 물통 이름 기입이 중복된 요구임을 보여준다. 수건은 준비물이고 모종삽은 있는 가정만 가져오는 선택 항목이다.",
+    "output2": "# 어린이집 현장 수업 준비물\n\n다음 화요일 화단 수업에 이름을 적은 물병과 작은 수건 한 장을 가져옵니다. 모종삽은 있는 가정만 가져옵니다.",
+    "layout": "out\\layout\\27.json",
+    "image": "out\\image\\27.png",
+    "error": null
+  },
+  {
+    "번호": "28",
+    "파일명": "28",
+    "URL": "https://www.figma.com/design/tCfhiqI5Q8TC9VQuIfaMUu?node-id=1-22",
+    "output": "# 공예 도안 겹쳐 보기 · 시각 분석\n\n반투명 덧그림과 바탕선이 겹쳐 있다. 연하게·진하게 사이 손잡이와 여백 문구 때문에 조절 대상은 덧그림 농도다.",
+    "output2": "# 공예 도안 겹쳐 보기\n\n바탕 도안을 유지한 채 덧그림을 겹쳐 표시한다. 사용자가 농도 손잡이를 움직이면 덧그림만 연해지거나 진해진다.",
+    "layout": "out\\layout\\28.json",
+    "image": "out\\image\\28.png",
+    "error": null
+  },
+  {
+    "번호": "29",
+    "파일명": "29",
+    "URL": "https://www.figma.com/design/sru7veoSvudRQUBjfWqBYQ?node-id=1-26",
+    "output": "# 공연 소품 반출 · 시각 분석\n\n파란 화살표는 보관대에서 점검대까지 내부 이동이다. 이를 승인받자는 제안은 취소됐고 기록만 남긴다. 붉은 화살표가 외부 출구를 향하며 이 구간은 승인 대상이다. 당일 반납 예외는 미정이다.",
+    "output2": "# 공연 소품 창고 반출 규칙\n\n1. 보관대에서 점검대로 옮기고 점검대에 이동을 기록한다.\n2. 공연장 밖으로 나가는 소품은 반출 승인을 받는다.\n\n당일 반납 물품의 예외 적용 여부는 아직 결정되지 않았다.",
+    "layout": "out\\layout\\29.json",
+    "image": "out\\image\\29.png",
+    "error": null
+  },
+  {
+    "번호": "30",
+    "파일명": "30",
+    "URL": "https://www.figma.com/design/pVHmMPYscscAnWd293geB2?node-id=1-18",
+    "output": "# 민속놀이 점수 집계 · 시각 분석\n\n준결승 괄호 끝에는 솔팀 진출이 있다. 솔팀의 9가 취소되고 8로 정정됐으며 별팀은 6이다. 심판의 OK는 8 대 6의 인정이고, 재경기 요청 옆 HOLD는 미결이다.",
+    "output2": "# 민속놀이 준결승 기록\n\n솔팀이 별팀에 **8 대 6**으로 이겨 진출했다. 재경기 요청은 다음 회의에서 논의한다.",
+    "layout": "out\\layout\\30.json",
+    "image": "out\\image\\30.png",
+    "error": null
+  },
+  {
+    "번호": "31",
+    "파일명": "31",
+    "URL": "https://www.figma.com/design/7AG89yZjOpOIELoRBaT93l?node-id=1-22",
+    "output": "# 수로 수위 기록 · 시각 분석\n\n월요일 점은 0선 위에 있다. 화요일 점은 0선 아래이며 −4 cm다. 수요일에는 점 대신 아래쪽에 시야 없음 기호가 있다. 목요일 값은 +3 cm이고 수요일을 건너뛰는 선이 없다.",
+    "output2": "# 수로 수위 기록 · 동쪽 표척\n\n| 요일 | 기준선 대비 |\n|---|---:|\n| 월 | 0 cm |\n| 화 | −4 cm |\n| 수 | 관측 불가 |\n| 목 | +3 cm |\n\n그래프에서 수요일 결측 구간에는 연결선을 그리지 않는다.",
+    "layout": "out\\layout\\31.json",
+    "image": "out\\image\\31.png",
+    "error": null
+  },
+  {
+    "번호": "32",
+    "파일명": "32",
+    "URL": "https://www.figma.com/design/qG6Qy2y9Stwelt2JP2aLhD?node-id=1-18",
+    "output": "# 채집 위치 비공개 · 시각 분석\n\n핀 위의 흐림 표시가 정확한 위치를 가리는 방식이고, 오른쪽의 구역 단위 공개 문구와 대응한다. 전체 삭제 문구와는 범위가 다르다.",
+    "output2": "# 채집 기록 공개 범위\n\n공개본에서는 채집 위치를 넓은 구역 단위로 표시한다. 정확한 좌표는 내부 야장에 남긴다.",
+    "layout": "out\\layout\\32.json",
+    "image": "out\\image\\32.png",
+    "error": null
+  },
+  {
+    "번호": "33",
+    "파일명": "33",
+    "URL": "https://www.figma.com/design/xp2xaBTcgWdlrBBlkKE4h9?node-id=1-18",
+    "output": "# 전시 사진 크레디트 · 시각 분석\n\n사진 밑의 작가명 자리와 붉은 화살표, OK가 위치 합의를 지지한다. 소장처 우선과 작가명 우선 주장이 남아 있고 순서는 미합의라고 적혀 있다.",
+    "output2": "# 전시 사진 크레디트 교정\n\n작가명은 사진 아래에 표시한다.\n\n사진 아래에서 소장처와 작가명 중 어느 항목을 먼저 표기할지는 미정이다. 지수는 소장처 우선, 세웅은 작가명 우선을 제안했다.",
+    "layout": "out\\layout\\33.json",
+    "image": "out\\image\\33.png",
+    "error": null
+  },
+  {
+    "번호": "34",
+    "파일명": "34",
+    "URL": "https://www.figma.com/design/zZWQ3FqoYQfLNBdpulW1Ok?node-id=1-16",
+    "output": "# 시장 수레 길찾기 · 시각 분석\n\n직진 경로의 병목은 70 cm이며 X가 표시된다. 우회선은 110 cm인 위쪽 통로를 거쳐 배송대로 복귀한다. 우회 조건은 수레 폭이 70 cm를 넘을 때다.",
+    "output2": "# 시장 수레 우회 동선\n\n입구에서 배송대로 갈 때 폭이 70 cm를 넘는 수레는 직진 병목 대신 위쪽 통로를 사용한다. 위쪽 통로의 표기 폭은 110 cm다.",
+    "layout": "out\\layout\\34.json",
+    "image": "out\\image\\34.png",
+    "error": null
+  },
+  {
+    "번호": "35",
+    "파일명": "35",
+    "URL": "https://www.figma.com/design/3fRd7oTG7IZElk1Tpe982d?node-id=1-19",
+    "output": "# 보드게임 턴 표시 · 시각 분석\n\n테두리와 원탁의 회전 화살표는 참여자 차례가 이동함을 보여준다. 가운데 두 막대와 붉은 메모는 논의 중 정지다. 재개 시 현재 차례 유지 여부가 미정이다.",
+    "output2": "# 원탁 게임 진행 표시\n\n현재 차례인 참여자에게 테두리를 표시하고 원탁 순서에 따라 표시를 옮긴다. 논의 중에는 진행을 일시 정지한다.\n\n재개할 때 차례를 유지할지 넘길지는 확인이 필요하다.",
+    "layout": "out\\layout\\35.json",
+    "image": "out\\image\\35.png",
+    "error": null
+  },
+  {
+    "번호": "36",
+    "파일명": "36",
+    "URL": "https://www.figma.com/design/BDV3yv8O7DZD8TEMpP9No9?node-id=1-21",
+    "output": "# 양봉 관찰 일지 · 시각 분석\n\n벌통 그림의 파란 화살표는 입구 통과 수를 관찰한 위치다. 수요일은 달력에서 수치가 비어 있고 비 메모가 있다. 월요일의 0은 관찰한 값이며 금요일에는 6을 기록했다.",
+    "output2": "# 벌통 A 주간 관찰\n\n| 요일 | 입구 통과 수 |\n|---|---:|\n| 월 | 0 |\n| 수 | 미관찰(비) |\n| 금 | 6 |",
+    "layout": "out\\layout\\36.json",
+    "image": "out\\image\\36.png",
+    "error": null
+  },
+  {
+    "번호": "37",
+    "파일명": "37",
+    "URL": "https://www.figma.com/design/joAxplxqjzsELKVZVpnaRo?node-id=1-15",
+    "output": "# 무대 의상 수선 · 시각 분석\n\n가운데 양쪽 화살표와 아래 문구는 소매길이 대칭을 나타낸다. 붉은 선과 벡터 ‘안’은 오른쪽 소매에만 붙는다.",
+    "output2": "# 무대 의상 소매 수선 지시\n\n1. 양쪽 소매를 같은 길이로 맞춘다.\n2. 오른쪽 소매에만 안감을 덧댄다.",
+    "layout": "out\\layout\\37.json",
+    "image": "out\\image\\37.png",
+    "error": null
+  },
+  {
+    "번호": "38",
+    "파일명": "38",
+    "URL": "https://www.figma.com/design/D5Q8mfpzO5jlao8hL3sZyI?node-id=1-18",
+    "output": "# 영화제 좌석 양도 · 시각 분석\n\n파란 선은 오른쪽 절단면에 닿으나 끝과 대상이 보이지 않는다. 좌석 번호와 상영관만 확인된다. 선을 입장 시각이나 좌석 양도와 연결할 근거가 부족해 A와 B 모두 판단 불가다.",
+    "output2": "# 영화제 티켓 안내 문구 점검\n\n티켓에 상영관 2와 F열 05 좌석을 표기한다. 재발행 안내에 입장 시작 시각이나 좌석 양도 절차를 넣기 전에 원본 오른쪽 도안을 확인한다.",
+    "layout": "out\\layout\\38.json",
+    "image": "out\\image\\38.png",
+    "error": null
+  },
+  {
+    "번호": "39",
+    "파일명": "39",
+    "URL": "https://www.figma.com/design/8n42h5mWk1yyHDGPqeMXTd?node-id=1-21",
+    "output": "# 야외 수업 우천 기준 · 시각 분석\n\n운동장이 젖으면 실내로 옮기자는 교사와, 비가 멈추면 점검 후 야외 수업이 가능하다는 시설의 기준이 다르다. 장소 기준 HOLD와 별개로 09:00 연락은 동의가 있다. 08:50 제안은 취소됐다.",
+    "output2": "# 야외 수업 우천 대응 회의\n\n## 확정\n보호자에게 **09:00**에 연락한다.\n\n## 미결\n운동장이 젖으면 실내 수업으로 전환하자는 의견과, 비가 그친 뒤 현장을 점검해 야외 수업을 할 수 있다는 의견이 있다. 장소 결정 기준과 실내 전환 시점은 확인이 필요하다.",
+    "layout": "out\\layout\\39.json",
+    "image": "out\\image\\39.png",
+    "error": null
+  },
+  {
+    "번호": "40",
+    "파일명": "40",
+    "URL": "https://www.figma.com/design/VUmtlOzt0YYWujd5R366a0?node-id=1-15",
+    "output": "# 당직 인수인계 · 시각 분석\n\n주제문은 교대표 가운데의 ‘인계 전 비어 있는 항목부터 확인한다.’이다. 카드 수량은 빈칸이고 화살표가 재확인 메모와 연결된다. 전화는 점검 완료다.",
+    "output2": "# 야간 당직 인계\n\n월요일 18–22시 당직은 희수가 맡는다.\n\n- [ ] 인계 전 출입 카드 수량 확인\n- [x] 비상 전화 점검",
+    "layout": "out\\layout\\40.json",
+    "image": "out\\image\\40.png",
+    "error": null
+  },
+  {
+    "번호": "41",
+    "파일명": "41",
+    "URL": "https://www.figma.com/design/v37HgjCaI1KuqkaOYTDkjK?node-id=1-22",
+    "output": "# 창문 일사량 미리보기 · 시각 분석\n\n두 시각의 해 위치와 그림자 방향이 다르고, 아래 시간 슬라이더가 해당 두 시각을 연결한다. 수치 단위는 HOLD로 보류되어 정량 계산 제공은 확인할 수 없다.",
+    "output2": "# 창문 일사량 시안 검토\n\n사용자가 시간을 바꾸면 창문 입면의 해 위치와 그림자 방향을 미리 본다. 시안의 예시는 09:00에는 오른쪽, 16:00에는 왼쪽으로 드리우는 그림자다.\n\n일사량을 수치로 제공할 경우 사용할 단위는 미정이다.",
+    "layout": "out\\layout\\41.json",
+    "image": "out\\image\\41.png",
+    "error": null
+  },
+  {
+    "번호": "42",
+    "파일명": "42",
+    "URL": "https://www.figma.com/design/lNVuzgu2d53WnUmlbS9m0h?node-id=1-18",
+    "output": "# 동네빵 예약 수령 · 시각 분석\n\n진열장 오른쪽 칸에 예약분과 16시 수령이 적혀 있다. 주문자만 수령과 번호로 대리 수령이 충돌한다. 품절 대체는 질문형 제안이다.",
+    "output2": "# 동네빵 예약 수령 메모\n\n예약분은 별도 칸에 두고 16시부터 수령할 수 있도록 한다.\n\n대리 수령 허용 여부는 미합의다. 품절 시 다른 빵으로 대체하는 방안은 제안 상태다.",
+    "layout": "out\\layout\\42.json",
+    "image": "out\\image\\42.png",
+    "error": null
+  },
+  {
+    "번호": "43",
+    "파일명": "43",
+    "URL": "https://www.figma.com/design/PFotr52iaW30dHajivAZM7?node-id=1-17",
+    "output": "# 자전거 보관대 번호 · 시각 분석\n\n왼쪽은 문자 범례에 해당하고 필기는 B다. 오른쪽 숫자 구역의 필기는 두 고리가 이어진 8이다. 방향은 입구 기준이다.",
+    "output2": "# 자전거 보관대 위치 안내\n\n입구에서 보관대를 바라볼 때 **B는 왼쪽**, **8은 오른쪽**에 있다.",
+    "layout": "out\\layout\\43.json",
+    "image": "out\\image\\43.png",
+    "error": null
+  },
+  {
+    "번호": "44",
+    "파일명": "44",
+    "URL": "https://www.figma.com/design/o8gr7H7WFVaNoL8Ue0DzB8?node-id=1-14",
+    "output": "# 문서 교정 부호 · 시각 분석\n\n쌍화살표 아래 두 자리를 왕복하며 범례가 자리 교환이라고 정의한다. 특정 글자 교체와의 대응은 ‘관련 없음’이다. 붉은 ×가 교체에 대응한다.",
+    "output2": "# 교정부호 적용표\n\n| 표시 | 교정 작업 |\n|---|---|\n| × | 표시한 글자를 바꾼다. |\n| 쌍화살표 | 표시한 두 글자의 순서를 바꾼다. |",
+    "layout": "out\\layout\\44.json",
+    "image": "out\\image\\44.png",
+    "error": null
+  },
+  {
+    "번호": "45",
+    "파일명": "45",
+    "URL": "https://www.figma.com/design/jdPmsFNnOjpGhLZNN31mfS?node-id=1-14",
+    "output": "# 공구함 대여 기록 · 시각 분석\n\n열쇠의 파란 연결선은 대여 승인 후 도장 문구를 향한다. 창고 잠금은 별도 작업이라 동일 의미가 아니다. 담당자는 미정이다.",
+    "output2": "# 공구 대여 승인 흐름\n\n공구 대여를 승인한 뒤 도장을 찍는다. 승인 담당자는 다음 주에 확정한다.",
+    "layout": "out\\layout\\45.json",
+    "image": "out\\image\\45.png",
+    "error": null
+  },
+  {
+    "번호": "46",
+    "파일명": "46",
+    "URL": "https://www.figma.com/design/38uG4CGXJ7ztugiuYnAJrl?node-id=1-17",
+    "output": "# 연구 노트 단위 통일 · 시각 분석\n\n취소된 초안은 머리글만 바꾸자는 내용이다. 예시의 2 cm에서 20 mm로 향하는 화살표와 확정 문구는 숫자도 변환한다는 근거다. 소수점 자릿수는 미정이다.",
+    "output2": "# 연구 노트 단위 정리 기준\n\n표의 길이 단위는 mm로 통일한다. 머리글의 단위와 각 길이 값을 함께 변경한다. 예를 들어 2 cm는 20 mm로 기록한다.\n\n소수점 표기 자릿수는 미정이다.",
+    "layout": "out\\layout\\46.json",
+    "image": "out\\image\\46.png",
+    "error": null
+  },
+  {
+    "번호": "47",
+    "파일명": "47",
+    "URL": "https://www.figma.com/design/EI7Qui708x61tZDClh3SJG?node-id=1-18",
+    "output": "# 회의 발언 대기열 · 시각 분석\n\n발언석은 민지이며 대기열 1번 연우로부터 점선 화살표가 발언석을 향한다. 종료 시 첫 대기자가 이동한다. 끼어들기는 미정이다.",
+    "output2": "# 회의 발언 대기열 시안\n\n민지가 발언을 마치면 첫 대기자인 연우에게 차례를 넘긴다. 준은 연우 뒤에서 대기한다. 끼어들기 규칙은 미정이다.",
+    "layout": "out\\layout\\47.json",
+    "image": "out\\image\\47.png",
+    "error": null
+  },
+  {
+    "번호": "48",
+    "파일명": "48",
+    "URL": "https://www.figma.com/design/dpFl9rratAWYnTppWxx4sR?node-id=1-19",
+    "output": "# 모바일 영수증 합치기 · 시각 분석\n\n시간축 8,000원과 2,000원은 주문 #25의 묶음이다. 오른쪽 2,000원은 같은 사진 재등록이며 선이 그어졌다. 실제 결제 두 건은 보존한다.",
+    "output2": "# 모바일 영수증 정리 규칙\n\n주문 #25에서 8,000원과 2,000원 결제를 하나의 주문으로 묶고 각 원본의 상세 항목을 보존한다. 2,000원 영수증의 재등록본만 제거한다.",
+    "layout": "out\\layout\\48.json",
+    "image": "out\\image\\48.png",
+    "error": null
+  },
+  {
+    "번호": "49",
+    "파일명": "49",
+    "URL": "https://www.figma.com/design/N7H4OGeuqKZCN4rQjxSMai?node-id=1-15",
+    "output": "# 합창 호흡 배치 · 시각 분석\n\n두 오선의 세로 막대는 같은 마디 경계다. 빨간 숨표는 막대 뒤 위 성부에만 있다. 아래 성부에 해당 기호는 없다.",
+    "output2": "# 합창 성부 호흡 위치\n\n위 성부는 표시한 마디 경계 직후에 숨을 쉰다. 아래 성부는 해당 지점에 별도 호흡 지시가 없다.",
+    "layout": "out\\layout\\49.json",
+    "image": "out\\image\\49.png",
+    "error": null
+  },
+  {
+    "번호": "50",
+    "파일명": "50",
+    "URL": "https://www.figma.com/design/aNDI2V2eI3AjaSzoeqNvVS?node-id=1-20",
+    "output": "# 분갈이 흙 배합 · 시각 분석\n\n배합비 머리글이 흙과 펄라이트 두 칸을 함께 가리킨다. 펄라이트의 2에 취소선이 있고 오른쪽 1이 유효하다.",
+    "output2": "# 분갈이 배합 작업표\n\n중형 화분에는 흙 3부와 펄라이트 1부를 부피 기준으로 섞는다. 다른 크기 화분의 배합은 확인이 필요하다.",
+    "layout": "out\\layout\\50.json",
+    "image": "out\\image\\50.png",
+    "error": null
+  },
+  {
+    "번호": "51",
+    "파일명": "51",
+    "URL": "https://www.figma.com/design/ekBL97257Iez2rD8UzNCLt?node-id=1-13",
+    "output": "# 민원 답변 구독 · 시각 분석\n\n봉투 묶음에서 뻗은 선은 새 답변 받아보기를 향한다. 기존 답변 내려받기는 별도 문구이며 그림과 연결되지 않는다.",
+    "output2": "# 민원 답변 구독 시안\n\n민원 상세에서 새 답변을 받아보도록 구독할 수 있게 한다. 기존 답변 다운로드는 별도 메뉴로 둔다.",
+    "layout": "out\\layout\\51.json",
+    "image": "out\\image\\51.png",
+    "error": null
+  },
+  {
+    "번호": "52",
+    "파일명": "52",
+    "URL": "https://www.figma.com/design/J2WUOQXZ0Bxcc5pyDmgRgJ?node-id=1-19",
+    "output": "# 축제 자원봉사 교대 · 시각 분석\n\n회의 참석자 목록과 교대 담당자 표가 따로 있다. 2조의 담당자란은 비어 있다. 민수의 발언은 모집 제안이며 민수가 담당한다는 뜻은 아니다.",
+    "output2": "# 축제 자원봉사 교대 기록\n\n| 교대 | 시간 | 담당 |\n|---|---|---|\n| 1조 | 09–11시 | 예린 |\n| 2조 | 11–13시 | 공석 |\n| 3조 | 13–15시 | 선호 |\n\n2조 추가 모집은 제안 상태이며 모집 방식은 미정이다.",
+    "layout": "out\\layout\\52.json",
+    "image": "out\\image\\52.png",
+    "error": null
+  },
+  {
+    "번호": "53",
+    "파일명": "53",
+    "URL": "https://www.figma.com/design/eWS403mY7JA95HnzibAMGL?node-id=1-16",
+    "output": "# 한손 키보드 · 시각 분석\n\n두 화면의 키는 서로 반대쪽에서 엄지가 닿을 수 있는 호를 따른다. 양방향 문구가 배열 전환을 지지한다.",
+    "output2": "# 한손 키보드 전환 동작\n\n사용자가 왼손 모드와 오른손 모드를 전환할 수 있다. 키는 선택한 손의 엄지가 닿는 호를 따라 재배치한다.",
+    "layout": "out\\layout\\53.json",
+    "image": "out\\image\\53.png",
+    "error": null
+  },
+  {
+    "번호": "54",
+    "파일명": "54",
+    "URL": "https://www.figma.com/design/8Kvef1y3U89pWcphKoGCpE?node-id=1-19",
+    "output": "# 스케이트 대여 반납 · 시각 분석\n\n보관 칸 한쪽만 채워져 있다. 오른쪽 상태 메모는 부분 반납이며 HOLD는 완료 처리와 연결된다. 완료 조건은 두 짝이 들어오는 것이다.",
+    "output2": "# 스케이트 한 짝 반납 처리\n\n한 짝만 들어오면 부분 반납으로 접수한다. 나머지 한 짝까지 들어오면 반납 완료로 처리한다.",
+    "layout": "out\\layout\\54.json",
+    "image": "out\\image\\54.png",
+    "error": null
+  },
+  {
+    "번호": "55",
+    "파일명": "55",
+    "URL": "https://www.figma.com/design/JmYvmESSpuvki8em1ZoDvj?node-id=1-20",
+    "output": "# 시민 낭독회 신청 · 시각 분석\n\n객석 뒤의 접수 위치와 예비 명단은 별도 정보다. 예비 명단 1·2순위는 결원 시 연락에 사용한다. 여백의 수정 메모는 예비 연락 후 남은 자리만 현장 접수로 받도록 한다.",
+    "output2": "# 시민 낭독회 접수 운영\n\n1. 결원이 생기면 도윤, 나래 순서로 연락한다.\n2. 예비 명단 연락 후 좌석이 남으면 객석 뒤 접수처에서 현장 신청을 받는다.",
+    "layout": "out\\layout\\55.json",
+    "image": "out\\image\\55.png",
+    "error": null
+  },
+  {
+    "번호": "56",
+    "파일명": "56",
+    "URL": "https://www.figma.com/design/Ylop6Uu9KmQFS4vcnatfhG?node-id=1-18",
+    "output": "# 종이 접기 수업 · 시각 분석\n\n왼쪽은 파란 대각선, 오른쪽은 붉은 반대 방향 대각선이다. 아래 설명이 접힘 방향을 구분한다. 오른쪽 곡선 화살표는 시계 방향 회전이다.",
+    "output2": "# 종이 접기 순서 안내\n\n1. 왼쪽 아래와 오른쪽 위를 잇는 선을 따라 안쪽으로 접는다.\n2. 왼쪽 위와 오른쪽 아래를 잇는 선을 따라 바깥쪽으로 접는다.\n3. 종이를 시계 방향으로 돌린다.",
+    "layout": "out\\layout\\56.json",
+    "image": "out\\image\\56.png",
+    "error": null
+  },
+  {
+    "번호": "57",
+    "파일명": "57",
+    "URL": "https://www.figma.com/design/f5gL3XdHKC62Q0MvPn25sE?node-id=1-15",
+    "output": "# 동물원 야간 관찰 · 시각 분석\n\n달은 범례에서 야간 관찰 동선을 뜻한다. 조명을 끄는 것은 데크 도착 뒤의 별도 지시다. 달 그림과 조명 끄기는 직접 대응하지 않는다.",
+    "output2": "# 동물원 야간 동선 안내\n\n야간에는 입구에서 관찰 데크로 이동한다. 데크에 도착한 뒤 조명을 끈다.",
+    "layout": "out\\layout\\57.json",
+    "image": "out\\image\\57.png",
+    "error": null
+  },
+  {
+    "번호": "58",
+    "파일명": "58",
+    "URL": "https://www.figma.com/design/xZsFEoc2AzW2PVSZjyX1SS?node-id=1-17",
+    "output": "# 공용 냉장고 폐기일 · 시각 분석\n\n목요일 표기는 취소됐고 금요일 18시와 OK가 붙는다. 이름 없는 음식이 정리 대상이다. 야간조 예외는 보류다.",
+    "output2": "# 공용 냉장고 정리 공지\n\n음식을 넣을 때 이름과 날짜를 적어 주세요. 이름이 없는 음식은 매주 **금요일 18시**에 정리합니다.\n\n야간조 예외 적용은 다음 회의에서 논의합니다.",
+    "layout": "out\\layout\\58.json",
+    "image": "out\\image\\58.png",
+    "error": null
+  },
+  {
+    "번호": "59",
+    "파일명": "59",
+    "URL": "https://www.figma.com/design/g0x3vjuT0q1C2ERIOxlPAV?node-id=1-16",
+    "output": "# 손뜨개 단수기 · 시각 분석\n\n버튼에 닿는 선과 짧게 누르기 주석은 1단 증가를 지지한다. 길게 눌러 0으로 만드는 동작은 물음표와 HOLD가 붙어 있다.",
+    "output2": "# 손뜨개 단수기 조작 명세\n\n짧게 누르면 현재 단수에 1을 더한다. 길게 눌렀을 때 0으로 초기화할지는 다음 테스트에서 확인한다.",
+    "layout": "out\\layout\\59.json",
+    "image": "out\\image\\59.png",
+    "error": null
+  },
+  {
+    "번호": "60",
+    "파일명": "60",
+    "URL": "https://www.figma.com/design/5Wy7bxLdiHqoWOE7hkMEmO?node-id=1-19",
+    "output": "# 서류철 탭 탐색 · 시각 분석\n\n겹친 세 탭 중 ‘지출’에서 뻗은 파란 선이 오른쪽의 지출 장으로 이어진다. 각 탭은 해당 장을 여는 탐색 요소다.",
+    "output2": "# 서류철 색인 탐색\n\n옆면 색인에서 계약·지출·정산 탭을 선택해 해당 장을 연다. 지출 장에는 교통비와 재료비 항목이 있다.",
+    "layout": "out\\layout\\60.json",
+    "image": "out\\image\\60.png",
+    "error": null
+  },
+  {
+    "번호": "61",
+    "파일명": "61",
+    "URL": "https://www.figma.com/design/9zfQxIr3ExnGDzS2zzvIvw?node-id=1-20",
+    "output": "# 안내견 동반 동선 · 시각 분석\n\n현관에서 데스크로 가는 연결문에 잠김 표시가 있다. 동쪽 출입구로 향하는 우회 후보는 HOLD가 붙었으며 개방 여부가 미확인이다.",
+    "output2": "# 안내견 동반 입장 동선\n\n현관에서 안내 데스크로 가는 연결문은 잠겨 있다. 동쪽 출입구의 개방 여부를 시설팀에 확인한 뒤 안내견 동반 우회 동선을 안내한다.",
+    "layout": "out\\layout\\61.json",
+    "image": "out\\image\\61.png",
+    "error": null
+  },
+  {
+    "번호": "62",
+    "파일명": "62",
+    "URL": "https://www.figma.com/design/ZmnsomX3Ehsf4WIOJ5AdFh?node-id=1-18",
+    "output": "# 직물 색견본 · 시각 분석\n\n붉은 괄호는 02와 03만 묶는다. 아래의 자유곡선 벡터 약호는 A다. 01과 04는 괄호 밖이다.",
+    "output2": "# 직물 견본 A 적용 범위\n\n세탁 시험 A에는 견본 **02와 03**을 사용한다.",
+    "layout": "out\\layout\\62.json",
+    "image": "out\\image\\62.png",
+    "error": null
+  },
+  {
+    "번호": "63",
+    "파일명": "63",
+    "URL": "https://www.figma.com/design/8pKpyK8QJ4ThRaBgqaX5aV?node-id=1-14",
+    "output": "# 전자책 접힌 귀 · 시각 분석\n\n책 페이지 모서리의 표식이 현재 페이지부터 이어 읽는 문구와 연결된다. 파일 영구 저장은 다른 동작이며 해당 표식과 대응하지 않는다. 기기 간 유지는 미정이다.",
+    "output2": "# 전자책 페이지 표시 시안\n\n현재 페이지를 표시해 다음에 그 위치부터 읽을 수 있도록 한다. 다른 기기에서도 읽기 위치가 유지되는지는 미정이다.",
+    "layout": "out\\layout\\63.json",
+    "image": "out\\image\\63.png",
+    "error": null
+  },
+  {
+    "번호": "64",
+    "파일명": "64",
+    "URL": "https://www.figma.com/design/fsaDbKcTWSDbP6XlF28ZcL?node-id=1-19",
+    "output": "# 책 모임 발제권 · 시각 분석\n\n중심 문장은 ‘발제는 희망하는 사람만 맡는다.’이다. 단비의 발언은 같은 결론이며 강제 배정 및 이전 불참 조건은 삭제됐다. 인원은 미정이다.",
+    "output2": "# 책 모임 발제 운영 회의\n\n발제는 희망자만 맡는다. 불참자에게 다음 회차 발제를 배정하는 규칙은 폐기했다. 한 회차의 발제 인원은 미정이다.",
+    "layout": "out\\layout\\64.json",
+    "image": "out\\image\\64.png",
+    "error": null
+  },
+  {
+    "번호": "65",
+    "파일명": "65",
+    "URL": "https://www.figma.com/design/JQXYi15h3eG5O7hdG8NSHg?node-id=1-17",
+    "output": "# 원예 강좌 대기 명단 · 시각 분석\n\n확인표의 등록 확정 두 건과 전화 메모의 대기 의향 한 건이 구분된다. 은별은 등록자가 아니다.",
+    "output2": "# 원예 강좌 등록 현황\n\n## 등록 확정\n- 민아\n- 해준\n\n## 대기 의향\n은별은 자리가 나면 연락받기를 희망한다. 대기 연락 순서는 미정이다.",
+    "layout": "out\\layout\\65.json",
+    "image": "out\\image\\65.png",
+    "error": null
+  },
+  {
+    "번호": "66",
+    "파일명": "66",
+    "URL": "https://www.figma.com/design/zTk3mbYeJXstdHCJtqhMxr?node-id=1-16",
+    "output": "# 천체 관측 화면 · 시각 분석\n\n별자리 선은 시야 원 안에 있다. 북·동 표식과 곡선은 기기 회전에 따른 방위 표시 이동을 지지한다. 별 이름 자동 표시는 미정이다.",
+    "output2": "# 천체 관측 방향 시안\n\n현재 시야 범위와 그 안의 별자리 윤곽을 보여준다. 사용자가 기기를 돌리면 방위 표식을 갱신한다. 별 이름 자동 표시 여부는 미정이다.",
+    "layout": "out\\layout\\66.json",
+    "image": "out\\image\\66.png",
+    "error": null
+  },
+  {
+    "번호": "67",
+    "파일명": "67",
+    "URL": "https://www.figma.com/design/OCybEFgc3bDta5agtrNxO1?node-id=1-18",
+    "output": "# 목공 작업대 공유 · 시각 분석\n\n붉은 취소선이 전체 예약 초안에 있다. 왼쪽은 예약 가능으로 확정됐다. 오른쪽은 목요일 16시까지 건조 대기이며 이후 예약 재개는 미정이다.",
+    "output2": "# 목공 작업대 예약 구역\n\n왼쪽 작업대만 예약받는다. 오른쪽은 목요일 16시까지 건조 대기 구역으로 사용한다. 건조가 끝난 뒤 오른쪽의 예약 재개 여부를 확인한다.",
+    "layout": "out\\layout\\67.json",
+    "image": "out\\image\\67.png",
+    "error": null
+  },
+  {
+    "번호": "68",
+    "파일명": "68",
+    "URL": "https://www.figma.com/design/GAiUyvm2sP1s0hi89rO9yI?node-id=1-21",
+    "output": "# 암실 인화 노트 · 시각 분석\n\n왼쪽은 6초, 오른쪽은 14초다. 가운데의 8이 취소됐고 바로 옆 펜 필기는 2다. 기존 초 단위를 적용하면 선택한 가운데 칸은 2초다.",
+    "output2": "# 암실 인화 시험 기준\n\n가운데 시험지의 **2초**를 인화 기준으로 사용한다. 비교 시험의 노출 시간은 왼쪽 6초와 오른쪽 14초였다.",
+    "layout": "out\\layout\\68.json",
+    "image": "out\\image\\68.png",
+    "error": null
+  },
+  {
+    "번호": "69",
+    "파일명": "69",
+    "URL": "https://www.figma.com/design/ALYpuLtmJLl3zcjbvniJHY?node-id=1-16",
+    "output": "# 마라톤 급수소 · 시각 분석\n\n컵의 짧은 선은 코스 5 km 지점에 연결된다. ‘참가자에게 물 제공’과는 대응하지만 판매 설치는 별도 제안이며 HOLD다.",
+    "output2": "# 마라톤 급수소 안내\n\n5 km 지점에서 참가자에게 물을 제공한다. 음료 판매대 설치는 별도 제안으로 보류한다.",
+    "layout": "out\\layout\\69.json",
+    "image": "out\\image\\69.png",
+    "error": null
+  },
+  {
+    "번호": "70",
+    "파일명": "70",
+    "URL": "https://www.figma.com/design/xFAvbev9RB5ru7IhjgGwHD?node-id=1-16",
+    "output": "# 버스 혼잡 표기 · 시각 분석\n\n세 사람 아이콘은 행선판의 혼잡 범례와 연결된다. 승객이 많다는 뜻이고 동승자 초대와는 대응하지 않는다. 수치 기준은 미정이다.",
+    "output2": "# 버스 혼잡 표시 정책\n\n순환 2번 시청 방면의 행선판에서 혼잡 상태를 표시한다. 집계 기준은 미정이며 업데이트 전에는 기존 표시를 유지한다.",
+    "layout": "out\\layout\\70.json",
+    "image": "out\\image\\70.png",
+    "error": null
+  },
+  {
+    "번호": "71",
+    "파일명": "71",
+    "URL": "https://www.figma.com/design/yn9STQJP8S2V4XCUkoGoIQ?node-id=1-14",
+    "output": "# 구술사 익명 표기 · 시각 분석\n\n첫 편집 문구가 가명 기본 원칙이다. 서면 동의가 있을 때 실명 공개를 허용하자는 윤과 계속 가명을 유지하자는 재의 의견이 다르다. HOLD는 예외 정책이다.",
+    "output2": "# 구술사 출판 익명 표기 회의\n\n원고 전체에는 일관되게 가명을 사용한다. 서면 동의가 있을 때 실명 공개를 허용할지는 미합의다. 윤은 허용, 재는 가명 유지를 제안했다.",
+    "layout": "out\\layout\\71.json",
+    "image": "out\\image\\71.png",
+    "error": null
+  },
+  {
+    "번호": "72",
+    "파일명": "72",
+    "URL": "https://www.figma.com/design/OtdlAQkXLPfGux2bVgsRM2?node-id=1-20",
+    "output": "# 전철 출구 접근성 · 시각 분석\n\n수직 동선에서 승강장과 대합실 사이의 승강기는 확인됐다. 지상 2번 출구 쪽 표시가 끊어져 경로의 연속성이 확인되지 않았다.",
+    "output2": "# 전철 출구 이동 안내 검토\n\n승강장에서 대합실까지 승강기를 이용할 수 있다. 지상 2번 출구까지 이어지는 접근 가능 경로는 현장 확인 후 공개한다.",
+    "layout": "out\\layout\\72.json",
+    "image": "out\\image\\72.png",
+    "error": null
+  },
+  {
+    "번호": "73",
+    "파일명": "73",
+    "URL": "https://www.figma.com/design/vvXd81RDyrAbBURQuT84et?node-id=1-20",
+    "output": "# 미술관 음성 안내 · 시각 분석\n\n미술관의 파란 선은 관람 방향이다. OK가 붙은 것은 작품별 직접 재생이며, 방에 들어갈 때 자동 재생하는 제안은 보류됐다.",
+    "output2": "# 미술관 음성 안내 정책\n\n관람자가 각 작품에서 해당 음성 안내를 직접 재생할 수 있도록 한다. 전시실 진입 시 자동 재생은 소음 우려로 추가 논의한다.",
+    "layout": "out\\layout\\73.json",
+    "image": "out\\image\\73.png",
+    "error": null
+  },
+  {
+    "번호": "74",
+    "파일명": "74",
+    "URL": "https://www.figma.com/design/yCw3VIOnKyfIrCdDMAV6st?node-id=1-20",
+    "output": "# 금속 활자 정리 · 시각 분석\n\n왼쪽은 F의 좌우 반전 획이고 오른쪽은 정상 방향 F다. 밖의 교정 메모와 왼쪽으로 향한 화살표가 오른쪽 칸을 지정한다.",
+    "output2": "# 활자 서랍 라벨 교정\n\n오른쪽 서랍 라벨을 정상 방향의 **F**로 교정한다. 왼쪽 반전 표식은 비교 견본으로 보존한다.",
+    "layout": "out\\layout\\74.json",
+    "image": "out\\image\\74.png",
+    "error": null
+  },
+  {
+    "번호": "75",
+    "파일명": "75",
+    "URL": "https://www.figma.com/design/dAsVU2DsHJv07UsWHPIoeM?node-id=1-18",
+    "output": "# 암벽장 루트 표기 · 시각 분석\n\n파란 실선은 아래 IN에서 시작해 오른쪽 OK에서 끝난다. 가운데 겹치는 다른 경로와 붉은 점선은 파란 개방 경로에 포함되지 않는다.",
+    "output2": "# 암벽장 파란 루트 안내\n\n아래 출발 지점에서 오른쪽 종료 지점까지 파란 루트를 이용한다. 점선 연결 구간은 개방하지 않는다.",
+    "layout": "out\\layout\\75.json",
+    "image": "out\\image\\75.png",
+    "error": null
+  },
+  {
+    "번호": "76",
+    "파일명": "76",
+    "URL": "https://www.figma.com/design/PFF7ul64o9eeK96UtpR2SX?node-id=1-14",
+    "output": "# 식재료 원산지 표식 · 시각 분석\n\n잎사귀 표시는 라벨에서 재활용 포장 문구와 붙어 있다. 지역 생산 문구와 대응하지 않으며 실제 원산지는 확인서가 필요하다.",
+    "output2": "# 원산지 라벨 검토\n\n포장에는 재활용 포장 정보를 표시한다. 식재료 원산지는 공급처 확인서를 받은 뒤 별도로 표기한다.",
+    "layout": "out\\layout\\76.json",
+    "image": "out\\image\\76.png",
+    "error": null
+  },
+  {
+    "번호": "77",
+    "파일명": "77",
+    "URL": "https://www.figma.com/design/V7MoWTus1y3Ox6IfzeA1gG?node-id=1-16",
+    "output": "# 반려식물 입양 기준 · 시각 분석\n\n신청 기준은 주 1회 상태 확인이다. 다육이의 창가 사례는 예시 표기와 별도 메모로 일반 요건에서 제외된다.",
+    "output2": "# 반려식물 입양 안내 초안\n\n주 1회 식물 상태를 확인할 수 있으면 신청할 수 있다. 식물마다 필요한 세부 관리 방법은 인계할 때 설명한다.",
+    "layout": "out\\layout\\77.json",
+    "image": "out\\image\\77.png",
+    "error": null
+  },
+  {
+    "번호": "78",
+    "파일명": "78",
+    "URL": "https://www.figma.com/design/7Ii6187QnNj0fsDNAYp1oS?node-id=1-18",
+    "output": "# 종이책 낭독 스캔 · 시각 분석\n\n왼쪽 페이지 모서리 표식 다음에 오른쪽 재생 아이콘으로 향하는 화살표가 있다. 낭독은 스캔 후 재생을 눌러 듣는 순서다. 자동 재생은 미정이다.",
+    "output2": "# 종이책 낭독 화면 흐름\n\n1. 책의 페이지 모서리를 맞춰 스캔한다.\n2. 재생 버튼을 눌러 낭독을 듣는다.\n\n페이지를 넘겼을 때 자동 재생할지는 미정이다.",
+    "layout": "out\\layout\\78.json",
+    "image": "out\\image\\78.png",
+    "error": null
+  },
+  {
+    "번호": "79",
+    "파일명": "79",
+    "URL": "https://www.figma.com/design/rVP0usa9tZUyMxVsESZkkb?node-id=1-17",
+    "output": "# 표본 사진 초점 평가 · 시각 분석\n\nA에서는 가장자리와 잎맥이 구별되고 B에서는 잎맥 경계가 흐리다. 확정 기준은 잎맥 경계 분리이며, 조명 변경 후 B 재촬영은 제안이다.",
+    "output2": "# 표본 사진 초점 평가 기준\n\n잎맥 경계가 분리되어 보이는 사진을 통과시킨다. 사진 A는 이 기준을 충족하고 B는 충족하지 못한다. 조명을 바꿔 B를 재촬영하는 방안은 제안 상태다.",
+    "layout": "out\\layout\\79.json",
+    "image": "out\\image\\79.png",
+    "error": null
+  },
+  {
+    "번호": "80",
+    "파일명": "80",
+    "URL": "https://www.figma.com/design/HjpizLcKLqIYMZk7gb8Eft?node-id=1-21",
+    "output": "# 대학 강의실 변경 · 시각 분석\n\n3주차 행의 화살표가 본관 204에서 별관 105로 연결된다. 4주차와 이후 행은 본관 204다. 프레임 밖 전면 이전 제안은 철회됐다.",
+    "output2": "# 강의실 변경 공지\n\n**3주차 수업만 별관 105호에서 진행한다.** 4주차부터는 본관 204호를 사용한다.",
+    "layout": "out\\layout\\80.json",
+    "image": "out\\image\\80.png",
+    "error": null
+  },
+  {
+    "번호": "81",
+    "파일명": "81",
+    "URL": "https://www.figma.com/design/OQTa0E0asy9Bg7kmecROr5?node-id=1-24",
+    "output": "# 장터 다회용기 회수 · 시각 분석\n\n화살표는 반환 접수에서 세척 대기를 거쳐 세척 완료로 향한다. 반환표에서 완료까지 한 번에 기록하는 제안에는 취소선이 있다.",
+    "output2": "# 다회용기 회수대 작업 절차\n\n1. 용기가 들어오면 반환 수량을 기록한다.\n2. 세척 전에는 미세척 칸에 둔다.\n3. 세척한 용기를 깨끗한 칸으로 옮긴 뒤 세척 완료를 별도로 기록한다.",
+    "layout": "out\\layout\\81.json",
+    "image": "out\\image\\81.png",
+    "error": null
+  },
+  {
+    "번호": "82",
+    "파일명": "82",
+    "URL": "https://www.figma.com/design/Shurof2TSsp1kGkjVRzKWn?node-id=1-19",
+    "output": "# 사내 용어집 병합 · 시각 분석\n\n작업대와 편집판에서 표준 용어 작업대로 선이 모이고 OK가 붙었다. ‘버전’은 두 묶음에서 다른 정의가 제시돼 제목이 같아도 하나로 합치지 않는다.",
+    "output2": "# 사내 용어집 병합 기준\n\n팀 가의 ‘작업대’와 팀 나의 ‘편집판’은 표준 용어 ‘작업대’로 통합한다. ‘버전’의 개발팀 정의는 배포 식별자, 편집팀 정의는 수정 횟수로 각각 보존한다. 두 정의의 병합은 보류한다.",
+    "layout": "out\\layout\\82.json",
+    "image": "out\\image\\82.png",
+    "error": null
+  },
+  {
+    "번호": "83",
+    "파일명": "83",
+    "URL": "https://www.figma.com/design/4ZuDgve1ssTy55eNt8FUcl?node-id=1-20",
+    "output": "# 편지 예약 발송 · 시각 분석\n\n봉투는 예약 발송 대상이다. 시간축은 취소 마감 17:50과 발송 18:00을 분리한다. 취소 없이 재편집하는 기능에는 HOLD가 있다.",
+    "output2": "# 예약 편지 발송 정책\n\n18:00에 발송할 편지는 **17:50까지** 예약을 취소할 수 있다. 예약을 유지하면서 내용을 편집하는 기능은 다음 검토에서 논의한다.",
+    "layout": "out\\layout\\83.json",
+    "image": "out\\image\\83.png",
+    "error": null
+  },
+  {
+    "번호": "84",
+    "파일명": "84",
+    "URL": "https://www.figma.com/design/6u8TCo2YTmE2dxV38Ti5Dl?node-id=1-18",
+    "output": "# 청소년 밴드 오디션 · 시각 분석\n\n왼쪽의 번호는 무대 등장 순서다. 오른쪽 순위는 결과로, 동일 팀의 위치가 달라 공연 순번을 심사 순위로 쓸 수 없다.",
+    "output2": "# 밴드 오디션 진행 및 결과표\n\n| 팀 | 공연 순서 | 심사 순위 |\n|---|---:|---:|\n| 해안 | 1 | 3 |\n| 파도 | 2 | 1 |\n| 달빛 | 3 | 2 |",
+    "layout": "out\\layout\\84.json",
+    "image": "out\\image\\84.png",
+    "error": null
+  },
+  {
+    "번호": "85",
+    "파일명": "85",
+    "URL": "https://www.figma.com/design/86XoOiXGqfaWoCX2imEfXf?node-id=1-23",
+    "output": "# 전통시장 배송 묶음 · 시각 분석\n\n경로가 집하대에서 두 주소로 나뉜다. 14번의 두 상자는 같은 주소 묶음이고 16번은 별도다. 골목 기준은 철회됐으며 공동 결제는 보류다.",
+    "output2": "# 시장 배송 묶음 운영\n\n- 14번 주소의 두 상자는 한 번에 배송한다.\n- 같은 골목의 16번 주소는 별도로 배송한다.\n- 결제는 주문별로 유지한다. 공동 결제는 보류 상태다.",
+    "layout": "out\\layout\\85.json",
+    "image": "out\\image\\85.png",
+    "error": null
+  },
+  {
+    "번호": "86",
+    "파일명": "86",
+    "URL": "https://www.figma.com/design/iZ2SumIj6qwDQkqQYUJud5?node-id=1-22",
+    "output": "# 야간 산책로 조도 · 시각 분석\n\n지도상의 파란 점 위치에서만 12, 4, 10 lx를 측정했다. 아래 괄호는 미측정 굽은 구간이며 0으로 기록하는 안은 취소됐다. 재측정은 요청 상태다.",
+    "output2": "# 산책로 야간 조도 점검 기록\n\n20:30에 입구 12 lx, 벤치 4 lx, 출구 10 lx를 측정했다. 벤치 이후 굽은 구간은 미측정으로 남기고 재측정한다는 요청을 기록한다.",
+    "layout": "out\\layout\\86.json",
+    "image": "out\\image\\86.png",
+    "error": null
+  },
+  {
+    "번호": "87",
+    "파일명": "87",
+    "URL": "https://www.figma.com/design/OHSvLZXhldT6VbYu0uyP5t?node-id=1-19",
+    "output": "# 캠핑장 소음 시간대 · 시각 분석\n\n예외 표시는 구역도에서 마당에만 들어간다. 승인 메모는 토요일 22:30까지이고 주차장 확대 제안은 승인되지 않았다.",
+    "output2": "# 캠핑장 야간 소음 운영\n\n기본 정숙 시간은 22:00부터다. 토요일 행사 때만 모닥불 마당에서 22:30까지 예외를 적용한다. 일반 텐트 구역과 주차장은 기본 규칙을 따른다.",
+    "layout": "out\\layout\\87.json",
+    "image": "out\\image\\87.png",
+    "error": null
+  },
+  {
+    "번호": "88",
+    "파일명": "88",
+    "URL": "https://www.figma.com/design/FwIvMN8fepkeIRT6NFizpJ?node-id=1-20",
+    "output": "# 지역신문 정정 이력 · 시각 분석\n\n붉은 취소선은 기존 3일 제목에 있고 파란 제목은 2일이다. 오른쪽 화살표와 메모는 본문 2문단도 정정 범위에 넣는다. 사진 설명은 그대로 유지한다.",
+    "output2": "# 지역신문 정정 기록\n\n제목을 ‘휴관 2일’로 정정한다. 본문 2문단에는 월·화 휴관과 수요일 정상 운영을 반영한다. 사진 설명은 유지한다.",
+    "layout": "out\\layout\\88.json",
+    "image": "out\\image\\88.png",
+    "error": null
+  },
+  {
+    "번호": "89",
+    "파일명": "89",
+    "URL": "https://www.figma.com/design/FkGdTuZKVoAUZulFlR7xsq?node-id=1-17",
+    "output": "# 패턴 재단 배치 · 시각 분석\n\n파란 양끝 화살표는 왼쪽 옷본에서 결 방향과 일치한다. 오른쪽 옷본 하단에 붉은 X가 붙어 해당 부분을 포개지 않는다. 재단 여유 폭은 미정이다.",
+    "output2": "# 재단 패턴 배치 지침\n\n옷본을 원단 결 방향에 맞춰 놓는다. 오른쪽 옷본의 아랫단을 포개지 않도록 간격을 둔다. 재단 여유 폭은 다음 교정에서 결정한다.",
+    "layout": "out\\layout\\89.json",
+    "image": "out\\image\\89.png",
+    "error": null
+  },
+  {
+    "번호": "90",
+    "파일명": "90",
+    "URL": "https://www.figma.com/design/FCRE9cls9Lt6ET7jeRQTMm?node-id=1-19",
+    "output": "# 동네 축구장 예약 · 시각 분석\n\n중앙선이 동서 반면을 나눈다. 두 반면 예약과 별도 시간표는 확정됐다. 전면 우선과 기존 반면 유지가 대립하며 우선권은 합의되지 않았다.",
+    "output2": "# 축구장 반면 예약 운영\n\n동쪽과 서쪽 반면을 팀별로 예약받고 시간표를 각각 표시한다. 리그팀은 전면 예약 우선을, 동호회는 기존 반면 예약 유지를 제안했다. 전면 예약 우선권은 미합의다.",
+    "layout": "out\\layout\\90.json",
+    "image": "out\\image\\90.png",
+    "error": null
+  },
+  {
+    "번호": "91",
+    "파일명": "91",
+    "URL": "https://www.figma.com/design/kFiqAW5XgMs5mBENBzpqUS?node-id=1-19",
+    "output": "# 화분 배송 파손 접수 · 시각 분석\n\n화분 밑의 파손선과 붉은 화살표는 깨진 부분을 가리킨다. 필수 사진은 상자 안에서 해당 부분을 촬영한 사진이다. 겉면은 추가 요청 시 제출한다.",
+    "output2": "# 화분 파손 접수 사진 안내\n\n접수할 때 상자 안에서 화분의 깨진 부분을 찍어 제출한다. 상자 겉면 사진은 추가 요청을 받은 경우에 제출한다.",
+    "layout": "out\\layout\\91.json",
+    "image": "out\\image\\91.png",
+    "error": null
+  },
+  {
+    "번호": "92",
+    "파일명": "92",
+    "URL": "https://www.figma.com/design/ZGZsECmJo6Cyk3BDgTz0NL?node-id=1-22",
+    "output": "# 앱 알림 읽음 처리 · 시각 분석\n\n수신과 실제 열기 시각이 다르다. 취소선은 수신만으로 읽음 처리하는 제안에 있고 파란 연결은 A의 읽음이 B에 반영됨을 가리킨다. B는 재연결까지 대기한다.",
+    "output2": "# 두 기기 알림 읽음 처리\n\n알림을 수신한 것만으로 읽음 상태를 변경하지 않는다. 사용자가 알림을 열면 읽음 상태를 다른 기기에도 반영한다. 오프라인 기기에는 다시 연결될 때 반영한다. 유예 시간의 구체적 기준은 미정이다.",
+    "layout": "out\\layout\\92.json",
+    "image": "out\\image\\92.png",
+    "error": null
+  },
+  {
+    "번호": "93",
+    "파일명": "93",
+    "URL": "https://www.figma.com/design/HMJsdMW3EFsTmzHIEiXUej?node-id=1-18",
+    "output": "# 철새 관측 중복 집계 · 시각 분석\n\n갈대섬 6과 수문 6이 같은 궤적에 놓이고 붉은 괄호로 묶였지만 중복 여부는 추정이다. 둔치의 4도 별도 목격이며 세 관측 기록을 보존한다.",
+    "output2": "# 철새 관찰 중복 검토\n\n| 시각 | 위치 | 관찰 수 |\n|---|---|---:|\n| 07:14 | 갈대섬 | 6 |\n| 07:17 | 수문 | 6 |\n| 07:27 | 둔치 | 4 |\n\n앞의 두 목격은 같은 무리일 가능성이 있다. 관측 기록은 모두 남기고 고유 개체 수는 확정하지 않는다.",
+    "layout": "out\\layout\\93.json",
+    "image": "out\\image\\93.png",
+    "error": null
+  },
+  {
+    "번호": "94",
+    "파일명": "94",
+    "URL": "https://www.figma.com/design/cUMFj1QKbE3qUomAdSwYaG?node-id=1-17",
+    "output": "# 청각 접근성 초인종 · 시각 분석\n\n주택 단면에서 거실과 침실에 같은 파형이 있다. 주석이 초인종과 두 번의 점멸을 연결한다. 침실 야간 강도는 HOLD가 붙었다.",
+    "output2": "# 시각 초인종 방별 동작\n\n초인종을 누르면 거실과 침실에서 각각 두 번 점멸한다. 침실의 야간 밝기 단계는 추가 확인이 필요하다.",
+    "layout": "out\\layout\\94.json",
+    "image": "out\\image\\94.png",
+    "error": null
+  },
+  {
+    "번호": "95",
+    "파일명": "95",
+    "URL": "https://www.figma.com/design/aKBkkhNBs3nTRpyFkNOsg5?node-id=1-22",
+    "output": "# 지방 기록관 열람 · 시각 분석\n\n상자에서 신청서의 제외 항목으로 연결된다. 사본만 담당자 확인 후 관내 열람에 제공되며, 외부 반출 초안에는 취소선과 반출 불가 메모가 있다.",
+    "output2": "# 기록관 열람 신청 처리\n\n원본은 열람 대상에서 제외한다. 담당자 확인이 끝나면 관내 열람용 사본을 제공한다. 사본을 외부로 반출할 수 없다.",
+    "layout": "out\\layout\\95.json",
+    "image": "out\\image\\95.png",
+    "error": null
+  },
+  {
+    "번호": "96",
+    "파일명": "96",
+    "URL": "https://www.figma.com/design/xr5dHDU2HaDOF6Uk5qZs6N?node-id=1-17",
+    "output": "# 세라믹 가마 적재 · 시각 분석\n\n중단과 하단에 승인된 재료가 적혀 있다. 상단 시험편은 물음표와 검토 메모가 남아 있다. 오른쪽 가열 곡선은 초안이며 HOLD가 붙었다.",
+    "output2": "# 가마 적재 승인 범위\n\n| 선반 | 이번 적재 |\n|---|---|\n| 중단 | 무유약 접시 |\n| 하단 | 받침 타일 |\n\n상단 시험편 배치와 가열 곡선은 검토 중이다.",
+    "layout": "out\\layout\\96.json",
+    "image": "out\\image\\96.png",
+    "error": null
+  },
+  {
+    "번호": "97",
+    "파일명": "97",
+    "URL": "https://www.figma.com/design/CQKGaxwLDb92yPFT6iwAxj?node-id=1-22",
+    "output": "# 배달 자전거 배터리 교대 · 시각 분석\n\n1번은 완료, 2번은 인계증에 연결된 예약, 3번은 충전 중이다. 2번의 예약은 충전 완료를 뜻하지 않는다.",
+    "output2": "# 배달 자전거 배터리 인계\n\n| 슬롯 | 인계 상태 |\n|---|---|\n| 1 | 충전 완료 |\n| 2 | 다음 조 예약, 충전 완료 여부 확인 필요 |\n| 3 | 충전 중 |\n\n인계할 때 예약과 충전 완료를 따로 확인한다.",
+    "layout": "out\\layout\\97.json",
+    "image": "out\\image\\97.png",
+    "error": null
+  },
+  {
+    "번호": "98",
+    "파일명": "98",
+    "URL": "https://www.figma.com/design/402Rl7KNnSh6NqgSb3jm80?node-id=1-21",
+    "output": "# 한옥 보수 기록 · 시각 분석\n\n분해도 중간의 서까래는 유지하고 하단 기단에서 갈라진 돌 한 개만 교체한다. 이전 전면 도색은 취소됐고 색상과 범위는 보류다. 지붕 부재는 교체 결정이 없다.",
+    "output2": "# 한옥 보수 부재별 작업 지시\n\n## 보수 범위\n- 서까래를 보존한다.\n- 기단에서 갈라진 돌 한 개를 교체한다.\n\n## 보류와 확인\n도색의 색상과 범위는 보류한다. 지붕 부재의 교체 여부는 결정 기록을 확인한다.",
+    "layout": "out\\layout\\98.json",
+    "image": "out\\image\\98.png",
+    "error": null
+  },
+  {
+    "번호": "99",
+    "파일명": "99",
+    "URL": "https://www.figma.com/design/rsSPELPatXFb5l4zTZOnYi?node-id=1-23",
+    "output": "# 해설 방송 믹싱 · 시각 분석\n\n해설과 현장음이 별도 파형이고 두 수직선 사이에 현장음만 평평하다. 해설 음소거 예전 안은 취소됐다. 00:20 이후 현장음이 올라가며 페이드 길이는 미정이다.",
+    "output2": "# 해설 방송 믹싱 변경표\n\n| 트랙 | 적용 |\n|---|---|\n| 해설 | 계속 재생 |\n| 현장음 | 00:12부터 00:20까지 음소거하고 00:20부터 페이드 인 |\n\n페이드 길이는 다음 리허설에서 결정한다.",
+    "layout": "out\\layout\\99.json",
+    "image": "out\\image\\99.png",
+    "error": null
+  }
+]

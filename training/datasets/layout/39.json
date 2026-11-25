@@ -1,0 +1,170 @@
+{
+  "file_key": "8n42h5mWk1yyHDGPqeMXTd",
+  "file_name": "39",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "야외 수업 우천 대응 회의",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 313.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "녹취 정리",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 51.0,
+        "y": 152.0,
+        "width": 629.0,
+        "height": 345.0
+      }
+    },
+    {
+      "id": "2:2",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 650.0,
+        "y": 187.0,
+        "width": 330.0,
+        "height": 196.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "장소 기준은 미합의",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 760.0,
+        "y": 266.0,
+        "width": 180.0,
+        "height": 28.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 873.0,
+        "y": 397.0,
+        "width": 83.94999694824219,
+        "height": 47.45000076293945
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "08:42  정정   ·   08:50 연락?",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 57.0,
+        "y": 548.0,
+        "width": 258.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 49.0,
+        "y": 556.0,
+        "width": 387.0,
+        "height": 34.0
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "철회    09:00 유지",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 438.0,
+        "y": 549.0,
+        "width": 161.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:20",
+      "name": "실내 전환 시점 확인 필요",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 734.0,
+        "y": 594.0,
+        "width": 223.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "녹취 정리",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 51.0,
+        "y": 152.0,
+        "width": 629.0,
+        "height": 345.0
+      }
+    },
+    {
+      "id": "2:2",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 650.0,
+        "y": 187.0,
+        "width": 330.0,
+        "height": 196.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 873.0,
+        "y": 397.0,
+        "width": 83.94999694824219,
+        "height": 47.45000076293945
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 49.0,
+        "y": 556.0,
+        "width": 387.0,
+        "height": 34.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

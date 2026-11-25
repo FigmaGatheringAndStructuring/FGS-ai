@@ -1,0 +1,148 @@
+{
+  "file_key": "FE3XmScoTuEVed394qu1kG",
+  "file_name": "12",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "직조 샘플 실 방향",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 221.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "직조 원안",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 72.0,
+        "y": 151.0,
+        "width": 625.0,
+        "height": 449.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 736.0,
+        "y": 203.0,
+        "width": 80.0,
+        "height": 175.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "세로실 위",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 805.0,
+        "y": 203.0,
+        "width": 94.0,
+        "height": 29.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "가로실 위",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 802.0,
+        "y": 298.0,
+        "width": 94.0,
+        "height": 29.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 759.0,
+        "y": 410.0,
+        "width": 58.5,
+        "height": 58.5
+      }
+    },
+    {
+      "id": "1:18",
+      "name": "샘플 A",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 812.0,
+        "y": 427.0,
+        "width": 54.0,
+        "height": 24.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "직조 원안",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 72.0,
+        "y": 151.0,
+        "width": 625.0,
+        "height": 449.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 114.0,
+        "y": 187.0,
+        "width": 530.0,
+        "height": 365.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 736.0,
+        "y": 203.0,
+        "width": 80.0,
+        "height": 175.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 759.0,
+        "y": 410.0,
+        "width": 58.5,
+        "height": 58.5
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

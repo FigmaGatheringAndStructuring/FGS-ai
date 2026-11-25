@@ -1,0 +1,137 @@
+{
+  "file_key": "nelZ8gxttJtMLlqO1G8rrr",
+  "file_name": "00",
+  "page_id": "2:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "2:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "2:4",
+      "name": "분관  /  반납함 정면 실측",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 65.0,
+        "y": 45.0,
+        "width": 301.0,
+        "height": 36.0
+      }
+    },
+    {
+      "id": "2:5",
+      "name": "교체 전 표지 위치 확인",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 68.0,
+        "y": 102.0,
+        "width": 166.0,
+        "height": 22.0
+      }
+    },
+    {
+      "id": "2:6",
+      "name": "반납함 정면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 95.0,
+        "y": 240.0,
+        "width": 780.0,
+        "height": 335.0
+      }
+    },
+    {
+      "id": "2:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 886.0,
+        "y": 183.0,
+        "width": 87.75,
+        "height": 87.75
+      }
+    },
+    {
+      "id": "2:16",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 690.0,
+        "y": 260.0,
+        "width": 250.0,
+        "height": 120.0
+      }
+    },
+    {
+      "id": "2:18",
+      "name": "시설팀 기록   ·   표지는 투입구 위에 부착",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 85.0,
+        "y": 605.0,
+        "width": 316.0,
+        "height": 23.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "2:6",
+      "name": "반납함 정면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 95.0,
+        "y": 240.0,
+        "width": 780.0,
+        "height": 335.0
+      }
+    },
+    {
+      "id": "2:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 110.0,
+        "y": 258.0,
+        "width": 750.0,
+        "height": 280.0
+      }
+    },
+    {
+      "id": "2:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 886.0,
+        "y": 183.0,
+        "width": 87.75,
+        "height": 87.75
+      }
+    },
+    {
+      "id": "2:16",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 690.0,
+        "y": 260.0,
+        "width": 250.0,
+        "height": 120.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

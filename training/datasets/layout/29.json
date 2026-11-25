@@ -1,0 +1,214 @@
+{
+  "file_key": "sru7veoSvudRQUBjfWqBYQ",
+  "file_name": "29",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "공연 소품 창고 반출 규칙",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 313.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "창고 평면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 55.0,
+        "y": 163.0,
+        "width": 579.0,
+        "height": 375.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "수 10:40   무대팀",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 662.0,
+        "y": 140.0,
+        "width": 135.0,
+        "height": 23.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "공연장 밖으로 나가는 건 승인",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 646.0,
+        "y": 185.0,
+        "width": 263.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "창고 안 이동도 승인받기?",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 668.0,
+        "y": 251.0,
+        "width": 218.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 663.0,
+        "y": 260.0,
+        "width": 367.0,
+        "height": 31.0
+      }
+    },
+    {
+      "id": "1:18",
+      "name": "내부 이동은 점검대 기록만",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 653.0,
+        "y": 311.0,
+        "width": 238.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 941.0,
+        "y": 354.0,
+        "width": 44.20000076293945,
+        "height": 44.20000076293945
+      }
+    },
+    {
+      "id": "1:21",
+      "name": "대여팀   당일 반납에도?",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 644.0,
+        "y": 475.0,
+        "width": 203.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:22",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 681.0,
+        "y": 526.0,
+        "width": 82.80000305175781,
+        "height": 46.79999923706055
+      }
+    },
+    {
+      "id": "1:24",
+      "name": "당일 예외 미정",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 786.0,
+        "y": 531.0,
+        "width": 126.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:25",
+      "name": "보관대 → 점검대 → 출구 순서",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 90.0,
+        "y": 594.0,
+        "width": 296.0,
+        "height": 29.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "창고 평면",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 55.0,
+        "y": 163.0,
+        "width": 579.0,
+        "height": 375.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 81.0,
+        "y": 197.0,
+        "width": 523.0,
+        "height": 260.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 663.0,
+        "y": 260.0,
+        "width": 367.0,
+        "height": 31.0
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 941.0,
+        "y": 354.0,
+        "width": 44.20000076293945,
+        "height": 44.20000076293945
+      }
+    },
+    {
+      "id": "1:22",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 681.0,
+        "y": 526.0,
+        "width": 82.80000305175781,
+        "height": 46.79999923706055
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

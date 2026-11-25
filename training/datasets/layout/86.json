@@ -1,0 +1,225 @@
+{
+  "file_key": "iZ2SumIj6qwDQkqQYUJud5",
+  "file_name": "86",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "산책로 야간 조도 점검 기록",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 342.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 75.0,
+        "y": 158.0,
+        "width": 1045.0,
+        "height": 542.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 160.0,
+        "y": 315.0,
+        "width": 960.0,
+        "height": 385.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "입구 12 lx",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 147.0,
+        "y": 288.0,
+        "width": 92.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "벤치 4 lx",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 347.0,
+        "y": 430.0,
+        "width": 80.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "출구 10 lx",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 655.0,
+        "y": 315.0,
+        "width": 92.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 476.0,
+        "y": 438.0,
+        "width": 644.0,
+        "height": 262.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "벤치 이후 굽은 구간 미측정",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 457.0,
+        "y": 472.0,
+        "width": 232.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "조도 0 기록안",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 800.0,
+        "y": 181.0,
+        "width": 124.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 797.0,
+        "y": 193.0,
+        "width": 323.0,
+        "height": 507.0
+      }
+    },
+    {
+      "id": "1:18",
+      "name": "재측정 요청",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 812.0,
+        "y": 264.0,
+        "width": 107.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 825.0,
+        "y": 328.0,
+        "width": 87.4000015258789,
+        "height": 49.400001525878906
+      }
+    },
+    {
+      "id": "1:21",
+      "name": "20:30 측정 · 점 위치만 유효",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 123.0,
+        "y": 574.0,
+        "width": 254.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 75.0,
+        "y": 158.0,
+        "width": 1045.0,
+        "height": 542.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 160.0,
+        "y": 315.0,
+        "width": 960.0,
+        "height": 385.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 476.0,
+        "y": 438.0,
+        "width": 644.0,
+        "height": 262.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 797.0,
+        "y": 193.0,
+        "width": 323.0,
+        "height": 507.0
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 825.0,
+        "y": 328.0,
+        "width": 87.4000015258789,
+        "height": 49.400001525878906
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

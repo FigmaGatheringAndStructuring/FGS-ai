@@ -1,0 +1,159 @@
+{
+  "file_key": "jmf3yukMAx7rYHQOqQjdNo",
+  "file_name": "10",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "합주 구간 반복",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 185.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "2차 연습 · 관악 파트",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 56.0,
+        "y": 129.0,
+        "width": 186.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 73.0,
+        "y": 255.0,
+        "width": 955.0,
+        "height": 170.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "01:00",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 92.0,
+        "y": 364.0,
+        "width": 50.0,
+        "height": 24.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "01:24",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 392.0,
+        "y": 445.0,
+        "width": 58.0,
+        "height": 28.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "01:48",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 731.0,
+        "y": 366.0,
+        "width": 58.0,
+        "height": 28.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "02:10",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 896.0,
+        "y": 364.0,
+        "width": 50.0,
+        "height": 24.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 481.0,
+        "y": 185.0,
+        "width": 68.9000015258789,
+        "height": 68.9000015258789
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "민아 · 끝에 닿으면 처음으로",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 800.0,
+        "y": 487.0,
+        "width": 232.0,
+        "height": 24.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "반복 횟수 설정은 다음 검토",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 109.0,
+        "y": 550.0,
+        "width": 243.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 73.0,
+        "y": 255.0,
+        "width": 955.0,
+        "height": 170.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 481.0,
+        "y": 185.0,
+        "width": 68.9000015258789,
+        "height": 68.9000015258789
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

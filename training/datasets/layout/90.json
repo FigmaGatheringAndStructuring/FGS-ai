@@ -1,0 +1,192 @@
+{
+  "file_key": "FCRE9cls9Lt6ET7jeRQTMm",
+  "file_name": "90",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "축구장 반면 예약 운영",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 278.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "작업 영역",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 77.0,
+        "y": 163.0,
+        "width": 685.0,
+        "height": 337.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 98.0,
+        "y": 184.0,
+        "width": 1022.0,
+        "height": 516.0
+      }
+    },
+    {
+      "id": "1:8",
+      "name": "서쪽 반면",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 174.0,
+        "y": 239.0,
+        "width": 86.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "동쪽 반면",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 515.0,
+        "y": 371.0,
+        "width": 86.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "확정 · 팀별 반면 예약",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 793.0,
+        "y": 174.0,
+        "width": 194.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 828.0,
+        "y": 223.0,
+        "width": 48.75,
+        "height": 48.75
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "리그팀 · 전면 예약 우선",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 790.0,
+        "y": 323.0,
+        "width": 215.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "동호회 · 기존 반면 유지",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 790.0,
+        "y": 390.0,
+        "width": 215.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 741.0,
+        "y": 331.0,
+        "width": 379.0,
+        "height": 369.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "전면 예약 우선권 · 합의 없음",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 674.0,
+        "y": 531.0,
+        "width": 272.0,
+        "height": 28.0
+      }
+    },
+    {
+      "id": "1:18",
+      "name": "양쪽을 별도 시간표에 표시",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 123.0,
+        "y": 572.0,
+        "width": 238.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:6",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 98.0,
+        "y": 184.0,
+        "width": 1022.0,
+        "height": 516.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 828.0,
+        "y": 223.0,
+        "width": 48.75,
+        "height": 48.75
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 741.0,
+        "y": 331.0,
+        "width": 379.0,
+        "height": 369.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

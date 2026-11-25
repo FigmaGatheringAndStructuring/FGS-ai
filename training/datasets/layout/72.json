@@ -1,0 +1,203 @@
+{
+  "file_key": "OtdlAQkXLPfGux2bVgsRM2",
+  "file_name": "72",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "작업지",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "전철 출구 이동 안내 검토",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 44.0,
+        "y": 35.0,
+        "width": 313.0,
+        "height": 37.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 86.0,
+        "y": 156.0,
+        "width": 1034.0,
+        "height": 544.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "지상",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 107.0,
+        "y": 179.0,
+        "width": 41.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:8",
+      "name": "대합실",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 100.0,
+        "y": 363.0,
+        "width": 61.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "승강장",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 99.0,
+        "y": 536.0,
+        "width": 61.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "승강기",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 384.0,
+        "y": 261.0,
+        "width": 61.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "2:2",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 468.0,
+        "y": 352.0,
+        "width": 55.0,
+        "height": 193.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 552.0,
+        "y": 185.0,
+        "width": 568.0,
+        "height": 515.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "2번 출구 연결 미확인",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 805.0,
+        "y": 173.0,
+        "width": 189.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "승강장 → 대합실 확인",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 779.0,
+        "y": 364.0,
+        "width": 199.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 916.0,
+        "y": 429.0,
+        "width": 49.400001525878906,
+        "height": 49.400001525878906
+      }
+    },
+    {
+      "id": "1:19",
+      "name": "지상 출구까지는 현장 확인 후 공개",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 694.0,
+        "y": 557.0,
+        "width": 308.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 86.0,
+        "y": 156.0,
+        "width": 1034.0,
+        "height": 544.0
+      }
+    },
+    {
+      "id": "2:2",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 468.0,
+        "y": 352.0,
+        "width": 55.0,
+        "height": 193.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 스케치",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 552.0,
+        "y": 185.0,
+        "width": 568.0,
+        "height": 515.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "펜 필기",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 916.0,
+        "y": 429.0,
+        "width": 49.400001525878906,
+        "height": 49.400001525878906
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}
