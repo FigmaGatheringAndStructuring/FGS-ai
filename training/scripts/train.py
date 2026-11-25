@@ -1,5 +1,6 @@
 import argparse
 import json
+import math
 import os
 from dataclasses import dataclass
 from pathlib import Path
@@ -427,6 +428,16 @@ def main():
         processor=processor,
     )
 
+    # 최신 transformers는 warmup_ratio를 받지 않으므로 비율을 step 수로 직접 바꾼다.
+    # (모든 버전에서 warmup_steps는 동작함)
+    steps_per_epoch = math.ceil(
+        len(train_dataset)
+        / (config.batch_size * config.gradient_accumulation_steps)
+    )
+    total_steps = steps_per_epoch * config.epochs
+    warmup_steps = math.ceil(total_steps * config.warmup_ratio)
+    print(f"총 {total_steps} step, warmup {warmup_steps} step")
+
     training_args = TrainingArguments(
         output_dir=config.output_dir,
 
@@ -441,7 +452,7 @@ def main():
 
         learning_rate=config.learning_rate,
 
-        warmup_ratio=config.warmup_ratio,
+        warmup_steps=warmup_steps,
         weight_decay=config.weight_decay,
 
         lr_scheduler_type="cosine",
