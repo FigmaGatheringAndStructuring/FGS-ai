@@ -49,6 +49,8 @@ class Config:
     min_pixels: int
     max_pixels: int
 
+    attn_implementation: str = "sdpa"
+
 
 def load_jsonl(path: Path):
     with path.open("r", encoding="utf-8") as f:
@@ -336,6 +338,14 @@ def parse_args():
         default=8192,
     )
 
+    # sdpa: PyTorch 내장, 설치 필요 없음 (DGX Spark는 flash-attn 설치 파일이 없음)
+    # flash_attention_2: flash-attn 패키지가 설치돼 있을 때만
+    parser.add_argument(
+        "--attn",
+        choices=["sdpa", "flash_attention_2", "eager"],
+        default="sdpa",
+    )
+
     return parser.parse_args()
 
 
@@ -365,6 +375,8 @@ def main():
 
         min_pixels=401408,
         max_pixels=1003520,
+
+        attn_implementation=args.attn,
     )
 
     os.makedirs(
@@ -385,7 +397,7 @@ def main():
     model = Qwen3VLForConditionalGeneration.from_pretrained(
         config.model_name,
         torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
+        attn_implementation=config.attn_implementation,
     )
 
     model.config.use_cache = False
