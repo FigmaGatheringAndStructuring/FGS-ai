@@ -270,7 +270,7 @@ def parse_args():
 
     parser.add_argument(
         "--model",
-        default="Qwen/Qwen3-VL-8B-Instruct",
+        default="Qwen/Qwen3-VL-4B-Instruct",
     )
 
     parser.add_argument(

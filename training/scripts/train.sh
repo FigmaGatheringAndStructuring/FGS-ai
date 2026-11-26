@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$0")/../.."
 
 python training/scripts/train.py \
-  --model Qwen/Qwen3-VL-8B-Instruct \
+  --model Qwen/Qwen3-VL-4B-Instruct \
   --train training/datasets/train.jsonl \
   --validation training/datasets/validation.jsonl \
   --output training/outputs/fgs-qwen3-vl-lora \

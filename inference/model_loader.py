@@ -20,7 +20,7 @@ from peft import PeftModel
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_MODEL_ID = "Qwen/Qwen3-VL-8B-Instruct"
+DEFAULT_MODEL_ID = "Qwen/Qwen3-VL-4B-Instruct"
 DEFAULT_LORA_MODEL_ID = "./training/outputs/fgs-qwen3-vl-lora"
 _DTYPES = {"auto", "bfloat16", "float16", "float32"}
 
