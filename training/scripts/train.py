@@ -169,8 +169,10 @@ class FGS3VLDataset(Dataset):
             tokenize=True,
             return_dict=True,
             return_tensors="pt",
-            return_mm_token_type_ids=True,
             add_generation_prompt=False,
+            processor_kwargs={
+                "return_mm_token_type_ids": True,
+            },
         )
 
         # prompt:
@@ -180,8 +182,10 @@ class FGS3VLDataset(Dataset):
             tokenize=True,
             return_dict=True,
             return_tensors="pt",
-            return_mm_token_type_ids=True,
             add_generation_prompt=True,
+            processor_kwargs={
+                "return_mm_token_type_ids": True,
+            },
         )
 
         input_ids = full["input_ids"][0]
