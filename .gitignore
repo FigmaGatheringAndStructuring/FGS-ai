@@ -12,6 +12,7 @@ venv/
 *.gguf
 checkpoints/
 outputs/
+training/eval_results/
 .cache/
 
 # 데이터셋 (용량 큼, 피그마 기획 내용 포함)

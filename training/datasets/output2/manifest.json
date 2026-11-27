@@ -1,0 +1,30 @@
+{
+  "name": "output2",
+  "answer_keys": [
+    "output2"
+  ],
+  "source_index": "D:\\School\\aiandfuture\\FGS-ai\\training\\datasets\\index.json",
+  "split_file": "D:\\School\\aiandfuture\\FGS-ai\\training\\datasets\\split.json",
+  "val_ratio": 0.1,
+  "seed": 42,
+  "train_items": 90,
+  "validation_items": 10,
+  "train_samples": 90,
+  "validation_samples": 10,
+  "validation_labels": [
+    "01",
+    "09",
+    "15",
+    "41",
+    "42",
+    "50",
+    "65",
+    "70",
+    "78",
+    "91"
+  ],
+  "files": {
+    "train": "D:\\School\\aiandfuture\\FGS-ai\\training\\datasets\\output2\\train.jsonl",
+    "validation": "D:\\School\\aiandfuture\\FGS-ai\\training\\datasets\\output2\\validation.jsonl"
+  }
+}

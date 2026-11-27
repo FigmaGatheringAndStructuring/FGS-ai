@@ -138,3 +138,43 @@ uvicorn api.main:app --port 8001 --env-file .env   # PRELOAD_MODEL=0 으로 두�
 ```
 
 모델 가중치는 저장소에 넣지 않는다.
+
+## 학습 데이터셋과 모델 비교
+
+`training/datasets/fetch_figma.py` 가 만든 `index.json` 의 `output`(=output1) / `output2` 컬럼을 정답으로 쓴다.
+
+```bash
+# output2 만 사용
+python training/scripts/prepare_dataset.py --answer-keys output2
+
+# output1 + output2 를 모두 사용 (항목당 2개 샘플)
+python training/scripts/prepare_dataset.py --answer-keys output output2
+```
+
+생성 결과:
+
+- `training/datasets/output2/{train,validation}.jsonl`
+- `training/datasets/output1_output2/{train,validation}.jsonl`
+- `training/datasets/split.json` — 두 데이터셋이 같은 검증 항목을 쓰도록 고정하는 분할 정보
+
+두 모델을 학습하고 베이스 모델까지 같은 검증셋으로 비교하려면:
+
+```bash
+bash training/scripts/run_comparison.sh
+
+# Figma 데이터부터 새로 받으려면 (training/datasets 에 figma_links*.csv 필요)
+FETCH=1 bash training/scripts/run_comparison.sh
+```
+
+이 스크립트는 데이터셋 2개 생성 → LoRA 학습 2회 → `training/scripts/evaluate.py` 실행 순서로 동작한다.
+세 모델(파인튜닝 안 한 베이스 / output2만 학습 / output1+output2 학습)은 모두
+`training/datasets/output2/validation.jsonl` 로 평가한다.
+
+결과는 `training/eval_results/` 에 저장된다.
+
+- `report.md` — 모델별 ROUGE-L F1(베이스 대비 Δ), token F1, exact match, 길이 비율 비교 표
+- `results.json` — 요약 지표
+- `predictions_<모델>.jsonl` — 샘플별 정답/예측 전문
+
+학습 설정은 환경 변수로 바꿀 수 있다 (`MODEL`, `EPOCHS`, `LR`, `LORA_R`, `EVAL_ARGS` 등).
+

@@ -2,8 +2,8 @@ model:
   name: Qwen/Qwen3-VL-8B-Instruct
 
 dataset:
-  train: training/datasets/train.jsonl
-  validation: training/datasets/validation.jsonl
+  train: training/datasets/output2/train.jsonl
+  validation: training/datasets/output2/validation.jsonl
 
   min_pixels: 401408
   max_pixels: 1003520
@@ -14,7 +14,7 @@ lora:
   dropout: 0.05
 
 training:
-  output_dir: training/outputs/fgs-qwen3-vl-lora
+  output_dir: training/outputs/fgs-output2
 
   num_train_epochs: 3
 
