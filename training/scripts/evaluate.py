@@ -192,6 +192,9 @@ def generate_one(
         return_tensors="pt",
         add_generation_prompt=True,
     )
+
+    print("INPUT KEYS:", list(inputs.keys()))
+
     inputs = inputs.to(model.device)
 
     prompt_tokens = int(inputs["input_ids"].shape[-1])
