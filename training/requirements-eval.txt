@@ -1,0 +1,8 @@
+# 평가 지표(BERTScore, Semantic Similarity)용 추가 의존성.
+# 학습/추론에는 필요 없고 training/scripts/evaluate.py 를 실행할 때만 설치한다.
+#
+#   pip install -r training/requirements-eval.txt
+#
+# 설치를 건너뛰려면 evaluate.py 에 --no-bertscore --no-semantic 을 붙인다.
+bert-score>=0.3.13
+sentence-transformers>=3.0

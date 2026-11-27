@@ -378,6 +378,7 @@ def load_or_create_split(
                 indent=2,
             ),
             encoding="utf-8",
+            newline="\n",
         )
         print(f"[SPLIT] 새 분할을 저장했습니다: {split_file}")
 
@@ -436,7 +437,7 @@ def build_sample(
 
 def write_jsonl(path: Path, samples: list[dict[str, Any]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as f:
+    with path.open("w", encoding="utf-8", newline="\n") as f:
         for sample in samples:
             f.write(
                 json.dumps(
@@ -496,8 +497,8 @@ def main() -> None:
     parser.add_argument(
         "--val-ratio",
         type=float,
-        default=0.1,
-        help="검증 데이터 비율 (기본: 0.1)",
+        default=0.15,
+        help="검증 데이터 비율 (기본: 0.15)",
     )
     parser.add_argument(
         "--seed",

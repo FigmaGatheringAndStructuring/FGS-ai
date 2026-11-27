@@ -151,6 +151,13 @@ python training/scripts/prepare_dataset.py --answer-keys output2
 python training/scripts/prepare_dataset.py --answer-keys output output2
 ```
 
+기본 검증 비율은 15%다. 바꾸려면 `--val-ratio`를 준다. 이미 `split.json`이 있으면
+기존 검증 항목을 유지하므로, 새 비율로 다시 나누려면 `--force-split`을 함께 준다.
+
+```bash
+python training/scripts/prepare_dataset.py --answer-keys output2 --val-ratio 0.2 --force-split
+```
+
 생성 결과:
 
 - `training/datasets/output2/{train,validation}.jsonl`
@@ -172,9 +179,23 @@ FETCH=1 bash training/scripts/run_comparison.sh
 
 결과는 `training/eval_results/` 에 저장된다.
 
-- `report.md` — 모델별 ROUGE-L F1(베이스 대비 Δ), token F1, exact match, 길이 비율 비교 표
+- `report.md` — 모델별 ROUGE-L F1(베이스 대비 Δ), token F1, BERTScore(P/R/F1),
+  Semantic Similarity, exact match, 길이 비율 비교 표
 - `results.json` — 요약 지표
 - `predictions_<모델>.jsonl` — 샘플별 정답/예측 전문
 
-학습 설정은 환경 변수로 바꿀 수 있다 (`MODEL`, `EPOCHS`, `LR`, `LORA_R`, `EVAL_ARGS` 등).
+BERTScore와 Semantic Similarity는 추가 패키지가 필요하다. 학습/추론 환경과 분리해서
+평가할 때만 설치한다.
+
+```bash
+pip install -r training/requirements-eval.txt
+```
+
+기본 모델은 각각 `bert-base-multilingual-cased`,
+`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` 이고,
+`--bertscore-model`, `--semantic-model` 로 바꿀 수 있다. 지표 모델은 기본적으로
+CPU에서 돌며(`--metric-device`), 한 번만 로딩해 모든 모델 비교에 재사용한다.
+어휘 지표만 필요하면 `--no-bertscore --no-semantic` 을 붙인다.
+
+학습 설정은 환경 변수로 바꿀 수 있다 (`MODEL`, `EPOCHS`, `LR`, `LORA_R`, `VAL_RATIO`, `EVAL_ARGS` 등).
 

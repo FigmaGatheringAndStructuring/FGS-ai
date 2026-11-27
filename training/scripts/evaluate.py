@@ -24,6 +24,13 @@
          --output training/eval_results
 
 `--adapter` 를 주지 않으면 베이스 모델만 평가한다.
+
+ROUGE-L/token F1 같은 어휘 기반 지표 외에 BERTScore와 Semantic Similarity를
+기본으로 함께 계산한다. 두 지표용 모델은 CPU에서 돌리고 한 번만 로딩한다.
+
+    pip install -r training/requirements-eval.txt
+
+설치가 어렵거나 어휘 지표만 필요하면 `--no-bertscore --no-semantic` 을 붙인다.
 """
 
 from __future__ import annotations
@@ -47,7 +54,7 @@ if TYPE_CHECKING:
 ROOT = Path(__file__).resolve().parents[2]
 DATASET_DIR = ROOT / "training" / "datasets"
 
-METRIC_KEYS = (
+LEXICAL_METRIC_KEYS = (
     "rouge_l_precision",
     "rouge_l_recall",
     "rouge_l_f1",
@@ -59,6 +66,16 @@ METRIC_KEYS = (
     "prompt_tokens",
     "output_tokens",
 )
+BERTSCORE_METRIC_KEYS = (
+    "bertscore_precision",
+    "bertscore_recall",
+    "bertscore_f1",
+)
+SEMANTIC_METRIC_KEYS = ("semantic_similarity",)
+METRIC_KEYS = LEXICAL_METRIC_KEYS + BERTSCORE_METRIC_KEYS + SEMANTIC_METRIC_KEYS
+
+DEFAULT_BERTSCORE_MODEL = "bert-base-multilingual-cased"
+DEFAULT_SEMANTIC_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 _FENCE_RE = re.compile(r"^```(?:markdown|md)?\s*\n(.*?)\n```\s*$", re.DOTALL)
 _TOKEN_RE = re.compile(r"[0-9A-Za-z가-힣]+")
@@ -273,14 +290,132 @@ def compute_metrics(prediction: str, reference: str) -> dict[str, float]:
     }
 
 
-def average_metrics(rows: list[dict[str, Any]]) -> dict[str, float]:
+def average_metrics(rows: list[dict[str, Any]]) -> dict[str, float | None]:
     if not rows:
-        return {key: 0.0 for key in METRIC_KEYS}
+        return {key: None for key in METRIC_KEYS}
 
-    return {
-        key: sum(float(row.get(key, 0.0)) for row in rows) / len(rows)
-        for key in METRIC_KEYS
-    }
+    summary: dict[str, float | None] = {}
+    for key in METRIC_KEYS:
+        values = [
+            float(row[key])
+            for row in rows
+            if row.get(key) is not None
+        ]
+        summary[key] = sum(values) / len(values) if values else None
+
+    return summary
+
+
+def format_metric(value: float | None, digits: int = 4) -> str:
+    return "N/A" if value is None else f"{value:.{digits}f}"
+
+
+def metric_text(text: str) -> str:
+    """BERTScore/임베딩 모델이 빈 문자열에서 실패하지 않도록 대체 텍스트를 준다."""
+    return text if text.strip() else "(빈 응답)"
+
+
+# BERTScore와 sentence-transformers 모델은 한 번만 로딩해서 모든 모델 비교에 재사용한다.
+_BERT_SCORERS: dict[tuple[str, str, int], Any] = {}
+_SENTENCE_MODELS: dict[tuple[str, str], Any] = {}
+
+
+def get_bert_scorer(model_type: str, device: str, batch_size: int) -> Any:
+    key = (model_type, device, batch_size)
+
+    if key not in _BERT_SCORERS:
+        try:
+            from bert_score import BERTScorer
+        except ImportError as exc:
+            raise SystemExit(
+                "BERTScore를 계산하려면 `pip install bert-score` 가 필요합니다. "
+                "설치하지 않으려면 `--no-bertscore` 를 붙이세요."
+            ) from exc
+
+        print(f"BERTScore 모델 로딩: {model_type} (device={device})", flush=True)
+        _BERT_SCORERS[key] = BERTScorer(
+            model_type=model_type,
+            device=device,
+            batch_size=batch_size,
+            rescale_with_baseline=False,
+        )
+
+    return _BERT_SCORERS[key]
+
+
+def get_sentence_model(model_name: str, device: str) -> Any:
+    key = (model_name, device)
+
+    if key not in _SENTENCE_MODELS:
+        try:
+            from sentence_transformers import SentenceTransformer
+        except ImportError as exc:
+            raise SystemExit(
+                "Semantic Similarity를 계산하려면 `pip install sentence-transformers` 가 "
+                "필요합니다. 설치하지 않으려면 `--no-semantic` 을 붙이세요."
+            ) from exc
+
+        print(f"Semantic Similarity 모델 로딩: {model_name} (device={device})", flush=True)
+        _SENTENCE_MODELS[key] = SentenceTransformer(model_name, device=device)
+
+    return _SENTENCE_MODELS[key]
+
+
+def add_bertscore(
+    rows: list[dict[str, Any]],
+    model_type: str,
+    device: str,
+    batch_size: int,
+) -> None:
+    if not rows:
+        return
+
+    scorer = get_bert_scorer(model_type, device, batch_size)
+    predictions = [metric_text(row["prediction"]) for row in rows]
+    references = [metric_text(row["reference"]) for row in rows]
+
+    precision, recall, f1 = scorer.score(predictions, references, verbose=False)
+
+    for row, p, r, f in zip(
+        rows,
+        precision.tolist(),
+        recall.tolist(),
+        f1.tolist(),
+    ):
+        row["bertscore_precision"] = float(p)
+        row["bertscore_recall"] = float(r)
+        row["bertscore_f1"] = float(f)
+
+
+def add_semantic_similarity(
+    rows: list[dict[str, Any]],
+    model_name: str,
+    device: str,
+    batch_size: int,
+) -> None:
+    if not rows:
+        return
+
+    model = get_sentence_model(model_name, device)
+    predictions = model.encode(
+        [metric_text(row["prediction"]) for row in rows],
+        batch_size=batch_size,
+        normalize_embeddings=True,
+        convert_to_tensor=True,
+        show_progress_bar=False,
+    )
+    references = model.encode(
+        [metric_text(row["reference"]) for row in rows],
+        batch_size=batch_size,
+        normalize_embeddings=True,
+        convert_to_tensor=True,
+        show_progress_bar=False,
+    )
+
+    similarities = (predictions * references).sum(dim=1).clamp(-1.0, 1.0)
+
+    for row, similarity in zip(rows, similarities.tolist()):
+        row["semantic_similarity"] = float(similarity)
 
 
 # ---------------- 모델 ----------------
@@ -395,6 +530,24 @@ def evaluate_variant(
             flush=True,
         )
 
+    if args.bertscore:
+        print(f"[{name}] BERTScore 계산 중...", flush=True)
+        add_bertscore(
+            rows,
+            args.bertscore_model,
+            args.metric_device,
+            args.metric_batch_size,
+        )
+
+    if args.semantic:
+        print(f"[{name}] Semantic Similarity 계산 중...", flush=True)
+        add_semantic_similarity(
+            rows,
+            args.semantic_model,
+            args.metric_device,
+            args.metric_batch_size,
+        )
+
     elapsed = time.perf_counter() - started
     summary = average_metrics(rows)
     summary["elapsed_seconds"] = elapsed
@@ -425,24 +578,47 @@ def write_report(
         f"- 베이스 모델: `{results['model']}`",
         f"- 생성 설정: greedy={results['generation']['temperature'] == 0}, "
         f"max_new_tokens={results['generation']['max_new_tokens']}",
-        "",
-        "| 모델 | ROUGE-L F1 | Δ vs base | Token F1 | Exact Match | 길이 비율 | 초/샘플 |",
-        "|---|---:|---:|---:|---:|---:|---:|",
     ]
 
-    base_rouge = models.get("base", {}).get("summary", {}).get("rouge_l_f1", 0.0)
+    metric_config = results.get("metrics", {})
+    if metric_config.get("bertscore"):
+        lines.append(f"- BERTScore 모델: `{metric_config.get('bertscore_model')}`")
+    else:
+        lines.append("- BERTScore: 사용 안 함")
+    if metric_config.get("semantic"):
+        lines.append(f"- Semantic Similarity 모델: `{metric_config.get('semantic_model')}`")
+    else:
+        lines.append("- Semantic Similarity: 사용 안 함")
+
+    lines += [
+        "",
+        "| 모델 | ROUGE-L F1 | Δ vs base | Token F1 | BERTScore P | BERTScore R | "
+        "BERTScore F1 | Semantic | Exact Match | 길이 비율 | 초/샘플 |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|",
+    ]
+
+    base_rouge = models.get("base", {}).get("summary", {}).get("rouge_l_f1") or 0.0
 
     for name, model_result in models.items():
         summary = model_result["summary"]
-        delta = summary["rouge_l_f1"] - base_rouge
+        rouge_l = summary["rouge_l_f1"] or 0.0
+        delta = rouge_l - base_rouge
         lines.append(
-            f"| {name} | {summary['rouge_l_f1']:.4f} | {delta:+.4f} | "
-            f"{summary['token_f1']:.4f} | "
-            f"{summary['exact_match']:.4f} | {summary['length_ratio']:.3f} | "
-            f"{summary['seconds_per_sample']:.2f} |"
+            f"| {name} | {rouge_l:.4f} | {delta:+.4f} | "
+            f"{format_metric(summary['token_f1'])} | "
+            f"{format_metric(summary.get('bertscore_precision'))} | "
+            f"{format_metric(summary.get('bertscore_recall'))} | "
+            f"{format_metric(summary.get('bertscore_f1'))} | "
+            f"{format_metric(summary.get('semantic_similarity'))} | "
+            f"{format_metric(summary['exact_match'])} | "
+            f"{format_metric(summary['length_ratio'], 3)} | "
+            f"{format_metric(summary['seconds_per_sample'], 2)} |"
         )
 
-    best_name = max(models, key=lambda key: models[key]["summary"]["rouge_l_f1"])
+    best_name = max(
+        models,
+        key=lambda key: models[key]["summary"]["rouge_l_f1"] or 0.0,
+    )
     lines += [
         "",
         f"ROUGE-L F1 기준 최고 모델: **{best_name}**",
@@ -497,6 +673,41 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=42,
         help="샘플링/셔플 시드 (기본: 42)",
+    )
+
+    parser.add_argument(
+        "--no-bertscore",
+        dest="bertscore",
+        action="store_false",
+        help="BERTScore 계산을 건너뛴다 (기본: 계산함)",
+    )
+    parser.add_argument(
+        "--no-semantic",
+        dest="semantic",
+        action="store_false",
+        help="Semantic Similarity 계산을 건너뛴다 (기본: 계산함)",
+    )
+    parser.set_defaults(bertscore=True, semantic=True)
+    parser.add_argument(
+        "--bertscore-model",
+        default=DEFAULT_BERTSCORE_MODEL,
+        help=f"BERTScore 모델 (기본: {DEFAULT_BERTSCORE_MODEL})",
+    )
+    parser.add_argument(
+        "--semantic-model",
+        default=DEFAULT_SEMANTIC_MODEL,
+        help=f"Semantic Similarity 문장 임베딩 모델 (기본: {DEFAULT_SEMANTIC_MODEL})",
+    )
+    parser.add_argument(
+        "--metric-device",
+        default="cpu",
+        help="BERTScore/Semantic 모델을 실행할 장치 (기본: cpu)",
+    )
+    parser.add_argument(
+        "--metric-batch-size",
+        type=int,
+        default=8,
+        help="BERTScore/Semantic 계산 배치 크기 (기본: 8)",
     )
 
     parser.add_argument(
@@ -602,6 +813,14 @@ def main() -> int:
             "top_k": args.top_k,
             "repetition_penalty": args.repetition_penalty,
         },
+        "metrics": {
+            "bertscore": args.bertscore,
+            "bertscore_model": args.bertscore_model if args.bertscore else None,
+            "semantic": args.semantic,
+            "semantic_model": args.semantic_model if args.semantic else None,
+            "metric_device": args.metric_device,
+            "metric_batch_size": args.metric_batch_size,
+        },
         "models": {},
     }
 
@@ -651,10 +870,13 @@ def main() -> int:
 
             results["models"][name]["predictions_file"] = str(predictions_path)
 
+            summary = model_result["summary"]
             print(
-                f"[{name}] ROUGE-L={model_result['summary']['rouge_l_f1']:.4f} "
-                f"TokenF1={model_result['summary']['token_f1']:.4f} "
-                f"({model_result['summary']['elapsed_seconds']:.1f}s)",
+                f"[{name}] ROUGE-L={format_metric(summary['rouge_l_f1'])} "
+                f"TokenF1={format_metric(summary['token_f1'])} "
+                f"BERTScore={format_metric(summary.get('bertscore_f1'))} "
+                f"Semantic={format_metric(summary.get('semantic_similarity'))} "
+                f"({summary['elapsed_seconds']:.1f}s)",
                 flush=True,
             )
     finally:
@@ -674,12 +896,18 @@ def main() -> int:
 
     print()
     print("=== 최종 비교 ===")
-    print(f"{'모델':<20} {'ROUGE-L':>10} {'TokenF1':>10} {'Exact':>10}")
+    print(
+        f"{'모델':<20} {'ROUGE-L':>10} {'TokenF1':>10} "
+        f"{'BERTScore':>10} {'Semantic':>10} {'Exact':>10}"
+    )
     for name, model_result in results["models"].items():
         summary = model_result["summary"]
         print(
-            f"{name:<20} {summary['rouge_l_f1']:>10.4f} "
-            f"{summary['token_f1']:>10.4f} {summary['exact_match']:>10.4f}"
+            f"{name:<20} {format_metric(summary['rouge_l_f1']):>10} "
+            f"{format_metric(summary['token_f1']):>10} "
+            f"{format_metric(summary.get('bertscore_f1')):>10} "
+            f"{format_metric(summary.get('semantic_similarity')):>10} "
+            f"{format_metric(summary['exact_match']):>10}"
         )
 
     print()
