@@ -71,7 +71,9 @@ class FGS3VLDataset(Dataset):
             annotation_path = ROOT / annotation_path
 
         if not annotation_path.is_file():
-            raise FileNotFoundError(f"데이터셋 파일이 없습니다: {annotation_path}")
+            raise FileNotFoundError(
+                f"데이터셋 파일이 없습니다: {annotation_path}"
+            )
 
         self.items = load_jsonl(annotation_path)
         self.dataset_dir = annotation_path.parent
@@ -86,7 +88,9 @@ class FGS3VLDataset(Dataset):
         image_value = item.get("image")
 
         if not image_value:
-            raise ValueError(f"image 경로가 없습니다: {item.get('id', '?')}")
+            raise ValueError(
+                f"image 경로가 없습니다: {item.get('id', '?')}"
+            )
 
         image_path = Path(image_value)
 
@@ -104,7 +108,8 @@ class FGS3VLDataset(Dataset):
                 return candidate
 
         raise FileNotFoundError(
-            f"이미지를 찾을 수 없습니다: {image_value} (기준: {self.dataset_dir})"
+            f"이미지를 찾을 수 없습니다: {image_value} "
+            f"(기준: {self.dataset_dir})"
         )
 
     def message_content(self, item, role: str):
@@ -119,7 +124,9 @@ class FGS3VLDataset(Dataset):
 
             return [{"type": "text", "text": str(content)}]
 
-        raise ValueError(f"'{role}' 메시지가 없습니다: {item.get('id', '?')}")
+        raise ValueError(
+            f"'{role}' 메시지가 없습니다: {item.get('id', '?')}"
+        )
 
     def build_messages(self, item, image: Image.Image):
         return [
@@ -155,6 +162,8 @@ class FGS3VLDataset(Dataset):
         full_messages = self.build_messages(item, image)
         prompt_messages = self.build_prompt_messages(item, image)
 
+        # 전체 대화:
+        # system -> user(image + text) -> assistant(answer)
         full = self.processor.apply_chat_template(
             full_messages,
             tokenize=True,
@@ -164,6 +173,8 @@ class FGS3VLDataset(Dataset):
             add_generation_prompt=False,
         )
 
+        # prompt:
+        # system -> user(image + text)
         prompt = self.processor.apply_chat_template(
             prompt_messages,
             tokenize=True,
@@ -176,25 +187,37 @@ class FGS3VLDataset(Dataset):
         input_ids = full["input_ids"][0]
         attention_mask = full["attention_mask"][0]
 
+        # Qwen3-VL M-RoPE에 필요한 값
+        mm_token_type_ids = full["mm_token_type_ids"][0]
+
         prompt_length = prompt["input_ids"].shape[-1]
 
         labels = input_ids.clone()
 
+        # prompt 부분은 loss 계산에서 제외
         labels[:prompt_length] = -100
 
-        labels[input_ids == self.processor.tokenizer.pad_token_id] = -100
+        # padding도 loss 계산에서 제외
+        labels[
+            input_ids == self.processor.tokenizer.pad_token_id
+        ] = -100
 
+        # max_length에 맞춰 모든 sequence 데이터를
+        # 동일한 길이로 자른다.
         if input_ids.shape[-1] > self.max_length:
             input_ids = input_ids[:self.max_length]
             attention_mask = attention_mask[:self.max_length]
             labels = labels[:self.max_length]
+            mm_token_type_ids = mm_token_type_ids[:self.max_length]
 
         result = {
             "input_ids": input_ids,
             "attention_mask": attention_mask,
             "labels": labels,
+            "mm_token_type_ids": mm_token_type_ids,
         }
 
+        # multimodal 입력
         for key in [
             "pixel_values",
             "image_grid_thw",
@@ -212,30 +235,49 @@ class DataCollator:
     def __call__(self, features):
         batch = {}
 
+        # input_ids
         batch["input_ids"] = torch.nn.utils.rnn.pad_sequence(
             [f["input_ids"] for f in features],
             batch_first=True,
             padding_value=self.processor.tokenizer.pad_token_id,
         )
 
+        # attention_mask
         batch["attention_mask"] = torch.nn.utils.rnn.pad_sequence(
             [f["attention_mask"] for f in features],
             batch_first=True,
             padding_value=0,
         )
 
+        # labels
         batch["labels"] = torch.nn.utils.rnn.pad_sequence(
             [f["labels"] for f in features],
             batch_first=True,
             padding_value=-100,
         )
 
+        # Qwen3-VL M-RoPE용 multimodal token type ids
+        #
+        # 0 = text
+        # 1 = image
+        # 2 = video
+        #
+        # sequence 길이가 서로 다를 수 있으므로
+        # input_ids와 동일하게 padding한다.
+        batch["mm_token_type_ids"] = torch.nn.utils.rnn.pad_sequence(
+            [f["mm_token_type_ids"] for f in features],
+            batch_first=True,
+            padding_value=0,
+        )
+
+        # pixel_values
         if "pixel_values" in features[0]:
             batch["pixel_values"] = torch.cat(
                 [f["pixel_values"] for f in features],
                 dim=0,
             )
 
+        # image_grid_thw
         if "image_grid_thw" in features[0]:
             batch["image_grid_thw"] = torch.cat(
                 [f["image_grid_thw"] for f in features],
@@ -341,11 +383,15 @@ def parse_args():
         default=8192,
     )
 
-    # sdpa: PyTorch 내장, 설치 필요 없음 (DGX Spark는 flash-attn 설치 파일이 없음)
+    # sdpa: PyTorch 내장, 설치 필요 없음
     # flash_attention_2: flash-attn 패키지가 설치돼 있을 때만
     parser.add_argument(
         "--attn",
-        choices=["sdpa", "flash_attention_2", "eager"],
+        choices=[
+            "sdpa",
+            "flash_attention_2",
+            "eager",
+        ],
         default="sdpa",
     )
 
@@ -430,15 +476,26 @@ def main():
         processor=processor,
     )
 
-    # 최신 transformers는 warmup_ratio를 받지 않으므로 비율을 step 수로 직접 바꾼다.
-    # (모든 버전에서 warmup_steps는 동작함)
+    # 최신 transformers는 warmup_ratio를 받지 않으므로
+    # 비율을 step 수로 직접 변환한다.
     steps_per_epoch = math.ceil(
         len(train_dataset)
-        / (config.batch_size * config.gradient_accumulation_steps)
+        / (
+            config.batch_size
+            * config.gradient_accumulation_steps
+        )
     )
+
     total_steps = steps_per_epoch * config.epochs
-    warmup_steps = math.ceil(total_steps * config.warmup_ratio)
-    print(f"총 {total_steps} step, warmup {warmup_steps} step")
+
+    warmup_steps = math.ceil(
+        total_steps * config.warmup_ratio
+    )
+
+    print(
+        f"총 {total_steps} step, "
+        f"warmup {warmup_steps} step"
+    )
 
     training_args = TrainingArguments(
         output_dir=config.output_dir,
@@ -473,6 +530,8 @@ def main():
 
         save_total_limit=3,
 
+        # Dataset의 multimodal field를
+        # Trainer가 제거하지 않도록 유지
         remove_unused_columns=False,
 
         report_to="none",
@@ -490,7 +549,6 @@ def main():
         eval_dataset=validation_dataset,
 
         data_collator=collator,
-
     )
 
     print()
