@@ -160,6 +160,7 @@ class FGS3VLDataset(Dataset):
             tokenize=True,
             return_dict=True,
             return_tensors="pt",
+            return_mm_token_type_ids=True,
             add_generation_prompt=False,
         )
 
@@ -168,6 +169,7 @@ class FGS3VLDataset(Dataset):
             tokenize=True,
             return_dict=True,
             return_tensors="pt",
+            return_mm_token_type_ids=True,
             add_generation_prompt=True,
         )
 
