@@ -10,7 +10,7 @@
 #
 # 환경 변수로 학습 설정을 바꿀 수 있다:
 #   FETCH, MODEL, EPOCHS, BATCH_SIZE, GRAD_ACCUM, LR, LORA_R, LORA_ALPHA,
-#   LORA_DROPOUT, MAX_LENGTH, VAL_RATIO, OUT2_DIR, OUT12_DIR, EVAL_DIR, EVAL_ARGS
+#   LORA_DROPOUT, MAX_LENGTH, VAL_SIZE, OUT2_DIR, OUT12_DIR, EVAL_DIR, EVAL_ARGS
 
 set -euo pipefail
 
@@ -20,7 +20,7 @@ MODEL="${MODEL:-Qwen/Qwen3-VL-4B-Instruct}"
 OUT2_DIR="${OUT2_DIR:-training/outputs/fgs-output2}"
 OUT12_DIR="${OUT12_DIR:-training/outputs/fgs-output1-output2}"
 EVAL_DIR="${EVAL_DIR:-training/eval_results}"
-VAL_RATIO="${VAL_RATIO:-0.15}"
+VAL_SIZE="${VAL_SIZE:-40}"
 FORCE="${FORCE:-0}"
 
 # ---------- 1) 데이터셋 ----------
@@ -36,12 +36,12 @@ fi
 python training/scripts/prepare_dataset.py \
   --answer-keys output2 \
   --name output2 \
-  --val-ratio "$VAL_RATIO"
+  --val-size "$VAL_SIZE"
 
 python training/scripts/prepare_dataset.py \
   --answer-keys output output2 \
   --name output1_output2 \
-  --val-ratio "$VAL_RATIO"
+  --val-size "$VAL_SIZE"
 
 # ---------- 2) 학습 ----------
 train_one () {

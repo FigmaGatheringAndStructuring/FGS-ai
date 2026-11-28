@@ -1,0 +1,115 @@
+{
+  "file_key": "uIXnwlScttvHttTrOE7bzm",
+  "file_name": "142",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "내보내기 배경",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "학생 신문 익명 제보 규칙",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 323.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "회의 메모",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 119.0,
+        "y": 128.0,
+        "width": 673.0,
+        "height": 405.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "학교 계정 로그인 요구는 논의 중",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 805.0,
+        "y": 170.0,
+        "width": 270.0,
+        "height": 52.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "담당 · 제보 접수와 기사 게재를 구분",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 837.0,
+        "y": 394.0,
+        "width": 260.0,
+        "height": 50.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 690.0,
+        "y": 242.0,
+        "width": 105.0,
+        "height": 153.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "회의 메모",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 119.0,
+        "y": 128.0,
+        "width": 673.0,
+        "height": 405.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 140.0,
+        "y": 427.0,
+        "width": 529.0,
+        "height": 70.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 690.0,
+        "y": 242.0,
+        "width": 105.0,
+        "height": 153.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

@@ -151,14 +151,28 @@ python training/scripts/prepare_dataset.py --answer-keys output2
 python training/scripts/prepare_dataset.py --answer-keys output output2
 ```
 
-기본 검증 비율은 15%다. 바꾸려면 `--val-ratio`를 준다. 이미 `split.json`이 있으면
-기존 검증 항목을 유지하므로, 새 비율로 다시 나누려면 `--force-split`을 함께 준다.
+기본 검증 비율은 20%다. 현재 200개 항목 기준으로 train 160개 / validation 40개다.
+검증 개수를 직접 고정하려면 `--val-size`를 준다. 이미 `split.json`이 있으면
+기존 검증 항목을 유지하므로, 새 비율/개수로 다시 나누려면 `--force-split`을 함께 준다.
 
 ```bash
+# 현재 데이터 기준 validation 40개 고정
+python training/scripts/prepare_dataset.py --answer-keys output2 --val-size 40 --force-split
+
+# 비율로 지정
 python training/scripts/prepare_dataset.py --answer-keys output2 --val-ratio 0.2 --force-split
 ```
 
-생성 결과:
+현재 생성 결과:
+
+| 데이터셋 | train | validation |
+|---|---:|---:|
+| `output2` | 160 | 40 |
+| `output1_output2` | 320 (항목당 2개) | 80 (40개 항목 × 2) |
+
+`run_comparison.sh`는 기본적으로 `VAL_SIZE=40`을 사용한다.
+
+파일 위치:
 
 - `training/datasets/output2/{train,validation}.jsonl`
 - `training/datasets/output1_output2/{train,validation}.jsonl`

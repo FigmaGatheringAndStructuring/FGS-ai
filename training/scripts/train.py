@@ -326,12 +326,12 @@ def parse_args():
 
     parser.add_argument(
         "--train",
-        default="training/datasets/train.jsonl",
+        default="training/datasets/output2/train.jsonl",
     )
 
     parser.add_argument(
         "--validation",
-        default="training/datasets/validation.jsonl",
+        default="training/datasets/output2/validation.jsonl",
     )
 
     parser.add_argument(

@@ -1,0 +1,115 @@
+{
+  "file_key": "keMeSVnWEVJEY6wIKAOCQr",
+  "file_name": "183",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "내보내기 배경",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "편집기의 스냅 눈금 시안",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 316.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 119.0,
+        "y": 155.0,
+        "width": 613.0,
+        "height": 371.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 290.0,
+        "y": 290.0,
+        "width": 98.0,
+        "height": 78.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "드래그 뒤 가까운 교차점에 맞춤",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 762.0,
+        "y": 184.0,
+        "width": 303.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "회전에도 같은 눈금을 쓸까?",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 761.0,
+        "y": 344.0,
+        "width": 300.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "파란 윤곽은 이전 위치 · 붉은 윤곽은 적용 뒤",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 149.0,
+        "y": 565.0,
+        "width": 378.0,
+        "height": 25.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 119.0,
+        "y": 155.0,
+        "width": 613.0,
+        "height": 371.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 290.0,
+        "y": 290.0,
+        "width": 98.0,
+        "height": 78.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

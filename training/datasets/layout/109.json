@@ -1,0 +1,225 @@
+{
+  "file_key": "yFD0pbItG7cdmRp1UWHFEk",
+  "file_name": "109",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "3:24",
+      "name": "내보내기 배경",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "3:25",
+      "name": "공연 자막 언어별 공개 범위",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 353.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "3:2",
+      "name": "언어별 자막 검토",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 76.0,
+        "y": 150.0,
+        "width": 642.0,
+        "height": 400.0
+      }
+    },
+    {
+      "id": "3:26",
+      "name": "체크된 행만 공개",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 767.0,
+        "y": 152.0,
+        "width": 307.0,
+        "height": 28.0
+      }
+    },
+    {
+      "id": "3:27",
+      "name": "영어 2행은 번역 확인 대기",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 768.0,
+        "y": 247.0,
+        "width": 305.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "3:28",
+      "name": "이전 안 · 자동 번역으로 채움",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 761.0,
+        "y": 341.0,
+        "width": 316.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "3:29",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 757.0,
+        "y": 346.0,
+        "width": 306.0,
+        "height": 17.0
+      }
+    },
+    {
+      "id": "3:31",
+      "name": "영어 자막이 없는 위치 표시 미결",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 767.0,
+        "y": 459.0,
+        "width": 301.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "3:32",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 642.0,
+        "y": 245.0,
+        "width": 132.0,
+        "height": 134.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "3:2",
+      "name": "언어별 자막 검토",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 76.0,
+        "y": 150.0,
+        "width": 642.0,
+        "height": 400.0
+      }
+    },
+    {
+      "id": "3:3",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 94.0,
+        "y": 162.0,
+        "width": 597.0,
+        "height": 369.0
+      }
+    },
+    {
+      "id": "3:9",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 271.0,
+        "y": 260.0,
+        "width": 62.0,
+        "height": 42.0
+      }
+    },
+    {
+      "id": "3:11",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 453.0,
+        "y": 260.0,
+        "width": 62.0,
+        "height": 42.0
+      }
+    },
+    {
+      "id": "3:14",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 271.0,
+        "y": 356.0,
+        "width": 62.0,
+        "height": 42.0
+      }
+    },
+    {
+      "id": "3:17",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 271.0,
+        "y": 452.0,
+        "width": 62.0,
+        "height": 42.0
+      }
+    },
+    {
+      "id": "3:19",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 453.0,
+        "y": 452.0,
+        "width": 62.0,
+        "height": 42.0
+      }
+    },
+    {
+      "id": "3:21",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 454.0,
+        "y": 345.0,
+        "width": 136.0,
+        "height": 55.0
+      }
+    },
+    {
+      "id": "3:29",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 757.0,
+        "y": 346.0,
+        "width": 306.0,
+        "height": 17.0
+      }
+    },
+    {
+      "id": "3:32",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 642.0,
+        "y": 245.0,
+        "width": 132.0,
+        "height": 134.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

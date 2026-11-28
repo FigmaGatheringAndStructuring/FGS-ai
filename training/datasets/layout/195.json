@@ -1,0 +1,159 @@
+{
+  "file_key": "An80apJi3ddcavNvJosnOk",
+  "file_name": "195",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "내보내기 배경",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "방과후 재료 이동 방향 교정",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 353.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 79.0,
+        "y": 148.0,
+        "width": 756.0,
+        "height": 382.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "오른쪽으로 보낼 상자",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 109.0,
+        "y": 237.0,
+        "width": 175.0,
+        "height": 24.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "공용 작업대",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 510.0,
+        "y": 234.0,
+        "width": 116.0,
+        "height": 29.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "출고 · 파랑",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 148.0,
+        "y": 421.0,
+        "width": 99.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "반환 · 빨강",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 518.0,
+        "y": 422.0,
+        "width": 99.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "두 화살표 방향이 다름",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 846.0,
+        "y": 213.0,
+        "width": 234.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "반환 기록은 별도",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 862.0,
+        "y": 392.0,
+        "width": 223.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "재료 수량은 당일 표로 확인",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 115.0,
+        "y": 564.0,
+        "width": 232.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "2:2",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 409.0,
+        "y": 207.0,
+        "width": 74.0,
+        "height": 64.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 79.0,
+        "y": 148.0,
+        "width": 756.0,
+        "height": 382.0
+      }
+    },
+    {
+      "id": "2:2",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 409.0,
+        "y": 207.0,
+        "width": 74.0,
+        "height": 64.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

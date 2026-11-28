@@ -1,0 +1,115 @@
+{
+  "file_key": "GeCbIFxeKxcvoIto1sdCSS",
+  "file_name": "165",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "내보내기 배경",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "창작실 종이 무게 기준 편차",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 353.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "기록 원본",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 95.0,
+        "y": 144.0,
+        "width": 667.0,
+        "height": 418.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "건조 후 견본 대비 측정",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 792.0,
+        "y": 162.0,
+        "width": 291.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "젖은 상태 수치는 별도 표에",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 789.0,
+        "y": 378.0,
+        "width": 294.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "기록 원본",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 95.0,
+        "y": 144.0,
+        "width": 667.0,
+        "height": 418.0
+      }
+    },
+    {
+      "id": "1:6",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 130.0,
+        "y": 163.0,
+        "width": 591.0,
+        "height": 339.0
+      }
+    },
+    {
+      "id": "2:2",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 130.0,
+        "y": 163.0,
+        "width": 590.0,
+        "height": 339.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 148.0,
+        "y": 473.0,
+        "width": 508.0,
+        "height": 70.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

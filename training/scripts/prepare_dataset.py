@@ -330,6 +330,7 @@ def load_or_create_split(
     split_file: Path,
     val_ratio: float,
     seed: int,
+    val_size: int | None = None,
     force: bool = False,
 ) -> tuple[list[str], list[str], list[str]]:
     """모든 데이터셋이 같은 검증 항목을 쓰도록 분할을 파일로 고정한다.
@@ -338,6 +339,8 @@ def load_or_create_split(
     """
     label_set = set(labels)
 
+    saved_validation: list[str] = []
+
     if split_file.is_file() and not force:
         try:
             saved = json.loads(split_file.read_text(encoding="utf-8"))
@@ -345,8 +348,13 @@ def load_or_create_split(
         except (json.JSONDecodeError, OSError) as exc:
             print(f"[WARN] split 파일을 읽지 못해 새로 만듭니다: {exc}")
             saved_validation = []
-    else:
-        saved_validation = []
+
+        if val_size is not None and len(saved_validation) != val_size:
+            print(
+                f"[SPLIT] 저장된 검증 항목이 {len(saved_validation)}개라 "
+                f"요청한 {val_size}개와 달라 새로 분할합니다."
+            )
+            saved_validation = []
 
     if saved_validation:
         validation = [label for label in saved_validation if label in label_set]
@@ -361,8 +369,12 @@ def load_or_create_split(
         shuffled = list(labels)
         random.Random(seed).shuffle(shuffled)
 
-        validation_size = max(1, round(len(shuffled) * val_ratio))
-        validation_size = min(validation_size, len(shuffled) - 1)
+        if val_size is not None:
+            validation_size = val_size
+        else:
+            validation_size = max(1, round(len(shuffled) * val_ratio))
+
+        validation_size = max(1, min(validation_size, len(shuffled) - 1))
         validation = sorted(shuffled[:validation_size])
 
         split_file.parent.mkdir(parents=True, exist_ok=True)
@@ -371,6 +383,7 @@ def load_or_create_split(
                 {
                     "seed": seed,
                     "val_ratio": val_ratio,
+                    "val_size": len(validation),
                     "validation": validation,
                     "train": sorted(label for label in labels if label not in set(validation)),
                 },
@@ -380,7 +393,7 @@ def load_or_create_split(
             encoding="utf-8",
             newline="\n",
         )
-        print(f"[SPLIT] 새 분할을 저장했습니다: {split_file}")
+        print(f"[SPLIT] 새 분할을 저장했습니다: {split_file} ({len(validation)} validation items)")
 
     validation_set = set(validation)
     train = [label for label in labels if label not in validation_set]
@@ -497,8 +510,14 @@ def main() -> None:
     parser.add_argument(
         "--val-ratio",
         type=float,
-        default=0.15,
-        help="검증 데이터 비율 (기본: 0.15)",
+        default=0.2,
+        help="검증 데이터 비율 (기본: 0.2, 현재 200개 기준 40개)",
+    )
+    parser.add_argument(
+        "--val-size",
+        type=int,
+        default=None,
+        help="검증 항목 수를 직접 지정 (지정하면 --val-ratio보다 우선)",
     )
     parser.add_argument(
         "--seed",
@@ -515,6 +534,9 @@ def main() -> None:
 
     if not 0 < args.val_ratio < 1:
         raise SystemExit("--val-ratio는 0과 1 사이여야 합니다")
+
+    if args.val_size is not None and args.val_size < 1:
+        raise SystemExit("--val-size는 1 이상이어야 합니다")
 
     name = args.name or default_dataset_name(answer_keys)
     outdir = Path(args.outdir) if args.outdir else DATASET_DIR / name
@@ -533,6 +555,7 @@ def main() -> None:
         split_file,
         args.val_ratio,
         args.seed,
+        val_size=args.val_size,
         force=args.force_split,
     )
 
@@ -562,6 +585,7 @@ def main() -> None:
         "source_index": str(INDEX_FILE),
         "split_file": str(split_file),
         "val_ratio": args.val_ratio,
+        "val_size": len(validation_labels),
         "seed": args.seed,
         "train_items": len(train_labels),
         "validation_items": len(validation_labels),

@@ -1,0 +1,115 @@
+{
+  "file_key": "g6CeUC4PcU7xWkiNpsXOn1",
+  "file_name": "172",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "내보내기 배경",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "합동 전시 포스터 공동 교정",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 353.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "회의 메모",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 119.0,
+        "y": 128.0,
+        "width": 673.0,
+        "height": 405.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "후원 문구의 위치는 미정",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 805.0,
+        "y": 170.0,
+        "width": 270.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "웹 일정과 포스터 일정은 같게 확인",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 837.0,
+        "y": 394.0,
+        "width": 260.0,
+        "height": 50.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 690.0,
+        "y": 242.0,
+        "width": 105.0,
+        "height": 153.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "회의 메모",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 119.0,
+        "y": 128.0,
+        "width": 673.0,
+        "height": 405.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 140.0,
+        "y": 427.0,
+        "width": 529.0,
+        "height": 70.0
+      }
+    },
+    {
+      "id": "1:13",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 690.0,
+        "y": 242.0,
+        "width": 105.0,
+        "height": 153.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

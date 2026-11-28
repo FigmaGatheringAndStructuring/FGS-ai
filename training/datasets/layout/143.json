@@ -1,0 +1,148 @@
+{
+  "file_key": "yp387fGUFfqqgrumgdltIQ",
+  "file_name": "143",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "내보내기 배경",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "배구 연습 영상 즐겨찾기",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 316.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "스케치 A",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 112.0,
+        "y": 162.0,
+        "width": 414.0,
+        "height": 318.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "스케치 B",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 641.0,
+        "y": 207.0,
+        "width": 409.0,
+        "height": 289.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 491.0,
+        "y": 302.0,
+        "width": 168.0,
+        "height": 84.0
+      }
+    },
+    {
+      "id": "1:16",
+      "name": "기기에 내려받기는 별도 동작",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 106.0,
+        "y": 558.0,
+        "width": 490.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "별표를 다시 누르면 제거되는지 미정",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 640.0,
+        "y": 563.0,
+        "width": 417.0,
+        "height": 25.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "스케치 A",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 112.0,
+        "y": 162.0,
+        "width": 414.0,
+        "height": 318.0
+      }
+    },
+    {
+      "id": "1:7",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 149.0,
+        "y": 296.0,
+        "width": 352.0,
+        "height": 134.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "스케치 B",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 641.0,
+        "y": 207.0,
+        "width": 409.0,
+        "height": 289.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 663.0,
+        "y": 415.0,
+        "width": 284.0,
+        "height": 62.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 491.0,
+        "y": 302.0,
+        "width": 168.0,
+        "height": 84.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}

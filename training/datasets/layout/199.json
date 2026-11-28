@@ -1,0 +1,170 @@
+{
+  "file_key": "2ypq8DEhRZyT0HR0YZ5oHN",
+  "file_name": "199",
+  "page_id": "1:2",
+  "page_name": "input",
+  "elements": [
+    {
+      "id": "1:3",
+      "name": "내보내기 배경",
+      "element_type": "RECTANGLE",
+      "bounding_box": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1120.0,
+        "height": 700.0
+      }
+    },
+    {
+      "id": "1:4",
+      "name": "공동 미술 작업 번짐 검토",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 323.0,
+        "height": 38.0
+      }
+    },
+    {
+      "id": "1:5",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 88.0,
+        "y": 152.0,
+        "width": 633.0,
+        "height": 376.0
+      }
+    },
+    {
+      "id": "1:9",
+      "name": "왼쪽 · 번짐 없음",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 132.0,
+        "y": 188.0,
+        "width": 142.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:10",
+      "name": "오른쪽 · 물자국 있음",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 416.0,
+        "y": 446.0,
+        "width": 181.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:11",
+      "name": "1차 · 전체 다시 칠하기",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 735.0,
+        "y": 144.0,
+        "width": 310.0,
+        "height": 25.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 729.0,
+        "y": 157.0,
+        "width": 315.0,
+        "height": 17.0
+      }
+    },
+    {
+      "id": "1:14",
+      "name": "최종 · 오른쪽만 덧칠",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 733.0,
+        "y": 248.0,
+        "width": 310.0,
+        "height": 28.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 662.0,
+        "y": 271.0,
+        "width": 94.0,
+        "height": 143.0
+      }
+    },
+    {
+      "id": "1:17",
+      "name": "왼쪽은 기존 상태 보존",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 739.0,
+        "y": 427.0,
+        "width": 197.0,
+        "height": 26.0
+      }
+    },
+    {
+      "id": "1:18",
+      "name": "재촬영은 건조 확인 후. 건조 시각 미기록.",
+      "element_type": "TEXT",
+      "bounding_box": {
+        "x": 126.0,
+        "y": 569.0,
+        "width": 366.0,
+        "height": 26.0
+      }
+    }
+  ],
+  "frames": [
+    {
+      "id": "1:5",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 88.0,
+        "y": 152.0,
+        "width": 633.0,
+        "height": 376.0
+      }
+    },
+    {
+      "id": "1:12",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 729.0,
+        "y": 157.0,
+        "width": 315.0,
+        "height": 17.0
+      }
+    },
+    {
+      "id": "1:15",
+      "name": "펜 획",
+      "element_type": "FRAME",
+      "bounding_box": {
+        "x": 662.0,
+        "y": 271.0,
+        "width": 94.0,
+        "height": 143.0
+      }
+    }
+  ],
+  "bounding_box": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1120.0,
+    "height": 700.0
+  }
+}
